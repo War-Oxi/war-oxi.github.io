@@ -3,7 +3,7 @@ title: OSI 7 Layer Model
 date: 2023-09-03 19:17:48 +0900
 author: kkankkandev
 categories: [Network]
-tags: [osi 7 layer, Network, cloud, osi, ip, udp, tcp, osi, router, switch]     # TAG names should always be lowercase
+tags: [osi 7 layer, network, cloud, osi, ip, udp, tcp, osi, router, switch]     # TAG names should always be lowercase
 comments: true
 image:
   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/2d2cbf9b-ce45-4102-bbc7-96faa519384a

@@ -119,10 +119,10 @@ Number.isNaN(10); // -> false
 Number.isNan(1 + undefined); // -> true
 ```
 
-#### 2.1.1 [Object.is](http://Object.is) 메서드.
+#### 2.1.1 [Object.is](https://Object.is) 메서드.
 
 <aside>
-👨🏽‍🦯 ES6에서 도입된 [Object.is](http://Object.is) 메서드는 다음과 같이 예측 가능한 정확한 비교 결과를 반환한다.
+👨🏽‍🦯 ES6에서 도입된 [Object.is](https://Object.is) 메서드는 다음과 같이 예측 가능한 정확한 비교 결과를 반환한다.
 그 외에는 일치 비교 연산자(===)와 동일하게 동작한다
 
 </aside>

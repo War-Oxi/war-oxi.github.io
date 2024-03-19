@@ -3,7 +3,7 @@ title: Go Routine 이란?
 date: 2024-01-15 15:54:32 +0900
 author: kkankkandev
 categories: [Programming Language, Go]
-tags: [go, go-routine, go routine, goroutine, concurrency, parallelism]     # TAG names should always be lowercase
+tags: [go, go routine, goroutine, concurrency, parallelism]     # TAG names should always be lowercase
 comments: true
 image:
   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/89734e1d-6afb-45dc-a6f9-8da0266bf529

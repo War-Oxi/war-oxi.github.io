@@ -4,7 +4,7 @@ description: git을 사용하여 github에 코드를 올리는 작업을 하던 
 date: 2023-07-09 07:24:00 +0900
 author: kkankkandev
 categories: [Git & Github]
-tags: [git add, git commit, git push, git, github, linux, alias, gitignore, .gitignore, gitignore.io]     # TAG names should always be lowercase
+tags: [git add, git commit, git push, git, github, linux, alias, gitignore, gitignore.io]     # TAG names should always be lowercase
 comments: true
 image:
   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/10da090c-58f9-4cba-a431-7449611702e5
