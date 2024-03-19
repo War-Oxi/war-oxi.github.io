@@ -1,101 +1,16 @@
----
-layout: compress
-permalink: /:basename.min.js
-# PWA service worker
----
-
-const swconfUrl = '{{ '/assets/js/data/swconf.js' | relative_url }}';
-
-importScripts(swconfUrl);
-const purge = swconf.purge;
-
-function verifyHost(url) {
-  for (const host of swconf.allowHosts) {
-    const regex = RegExp(`^http(s)?://${host}/`);
-    if (regex.test(url)) {
-      return true;
-    }
-  }
-  return false;
-}
-
-function verifyUrl(url) {
-  if (!verifyHost(url)) {
-    return false;
-  }
-
-  const requestPath = new URL(url).pathname;
-
-  for (const path of swconf.denyPaths) {
-    if (requestPath.startsWith(path)) {
-      return false;
-    }
-  }
-  return true;
-}
-
-if (!purge) {
-  swconf.allowHosts.push(location.host);
-}
-
-self.addEventListener('install', (event) => {
-  if (purge) {
-    return;
-  }
-
-  event.waitUntil(
-    caches.open(swconf.cacheName).then((cache) => {
-      return cache.addAll(swconf.resources);
-    })
-  );
+self.addEventListener("install", (event) => {
+  self.skipWaiting();
 });
 
-// 여기에 self.clients.claim()을 추가하는 부분입니다.
-self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys().then((keyList) => {
-      return Promise.all(
-        keyList.map((key) => {
-          if (purge) {
-            return caches.delete(key);
-          } else {
-            if (key !== swconf.cacheName) {
-              return caches.delete(key);
-            }
-          }
-        })
-      );
-    }).then(() => self.clients.claim()) // 새 Service Worker가 즉시 클라이언트를 제어할 수 있도록 추가
-  );
-});
-
-self.addEventListener('message', (event) => {
-  if (event.data === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-});
-
-self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request).then((response) => {
-      if (response) {
-        return response;
-      }
-
-      return fetch(event.request).then((response) => {
-        const url = event.request.url;
-
-        if (purge || event.request.method !== 'GET' || !verifyUrl(url)) {
-          return response;
+self.addEventListener("activate", (event) => {
+  self.registration
+    .unregister()
+    .then(() => self.clients.matchAll())
+    .then((clients) => {
+      clients.forEach((client) => {
+        if (client.url && "navigate" in client) {
+          client.navigate(client.url);
         }
-
-        let responseToCache = response.clone();
-
-        caches.open(swconf.cacheName).then((cache) => {
-          cache.put(event.request, responseToCache);
-        });
-        return response;
       });
-    })
-  );
+    });
 });
