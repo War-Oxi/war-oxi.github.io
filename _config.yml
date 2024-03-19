@@ -44,6 +44,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/%ED%83%9C%EC%A7%80-%EA%B9%80-3b8a27268
 
 # Site Verification Settings
 webmaster_verifications:
@@ -79,7 +80,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: light # [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
