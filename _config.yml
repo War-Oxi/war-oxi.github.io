@@ -63,11 +63,11 @@ analytics:
   google:
     id: G-54XWELLWVV # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: kkamjicounter # fill in your GoatCounter ID
 
 # Pageviews settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: goatcounter # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
