@@ -1,6 +1,6 @@
 ---
 title: .gitignore 파일 설정 [gitignore.io]
-description: git을 사용하여 github에 코드를 올리는 작업을 하던 도중 ```git add```, ```git commit```, ```git push``` 총 3가지 명령어를 계속 입력하는데 번거로움이 있었습니다. alias 기능을 사용해 하나의 명령어로 add, commit, push까지 한번에하는 방법을 공유합니다. alias라는 기능을 사용해서 다른 명령어 조합도 간단하게 입력할 수 있습니다.
+description: git을 사용하다보면 퍼블릭에 올라가서는 안될 자료들까지 올라가는 경우가 있습니다. 해당 문제는 .gitignore 파일을 편집해서 해결할 수 있습니다.
 date: 2023-07-09 07:24:00 +0900
 author: kkankkandev
 categories: [Git & Github]
