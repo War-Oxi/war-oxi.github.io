@@ -67,7 +67,7 @@
     {%- endcapture -%}
     {% when 'linkedin' %}
     {%- capture url -%} 
-    https://www.linkedin.com/in/{{ site.linkedin.username }}
+    https://www.linkedin.com/in/{{ entry.username }}
     {%- endcapture -%}
     {% when 'email' %}
     {% assign email = site.social.email | split: '@' %}
