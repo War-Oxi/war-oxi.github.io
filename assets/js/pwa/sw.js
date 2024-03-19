@@ -50,6 +50,7 @@ self.addEventListener('install', (event) => {
   );
 });
 
+// 여기에 self.clients.claim()을 추가하는 부분입니다.
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keyList) => {
@@ -64,7 +65,7 @@ self.addEventListener('activate', (event) => {
           }
         })
       );
-    })
+    }).then(() => self.clients.claim()) // 새 Service Worker가 즉시 클라이언트를 제어할 수 있도록 추가
   );
 });
 
@@ -88,7 +89,6 @@ self.addEventListener('fetch', (event) => {
           return response;
         }
 
-        {% comment %}See: <https://developers.google.com/web/fundamentals/primers/service-workers#cache_and_return_requests>{% endcomment %}
         let responseToCache = response.clone();
 
         caches.open(swconf.cacheName).then((cache) => {
