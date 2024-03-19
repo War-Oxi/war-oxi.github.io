@@ -90,7 +90,7 @@ theme_mode: light # [light | dark]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://github.com/War-Oxi/Oxi/assets/72260110/2126b365-6d25-4a20-86c2-29ef66517d43"
+avatar: "https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/ff0fd1c0-8c1c-4b33-9634-55c6971ed8e2"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
