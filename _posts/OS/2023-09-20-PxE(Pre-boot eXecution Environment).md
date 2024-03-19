@@ -99,7 +99,7 @@ CentOS는 Network설정에 NetworkManager와 /etc/sysconfig/network-script/ifcfg
 ```
 
 <p align="left"> 
-	<img src="https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/bfd3195d-71c0-444e-a070-05deba6bda59"/> 
+	<img src="https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/bfd3195d-71c0-444e-a070-05deba6bda59" alt=""/> 
 </p>
 
 ### 3.3 TFTP로 운영체제 설치파일(iso), 부트로더 전송을 위한 설정  
