@@ -8,7 +8,7 @@ comments: true
 image:
   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/89734e1d-6afb-45dc-a6f9-8da0266bf529
 ---
-# Go Routine - [ Concurrency vs Parallelism ]
+## Go Routine - [ Concurrency vs Parallelism ]
 
 > Go Routine은 동시성과 병렬성을 매우 간결하고 효과적으로 다룰 수 있는 기능을 제공합니다.
 > 
