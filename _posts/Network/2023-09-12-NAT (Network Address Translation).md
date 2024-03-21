@@ -151,7 +151,8 @@ do sh ip net tran
 
 ![image](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/45dc93e6-2290-415c-94b6-ee37ee4d6958)
 
-<br>
+<br><br>
 
-<strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>   
-Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
+> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+{: .prompt-info}

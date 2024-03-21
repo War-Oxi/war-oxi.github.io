@@ -105,7 +105,8 @@ DNS(Domain Name System)은 IP 주소 및 기타 데이터를 저장하고 이름
 ```
 
 
-<br>
+<br><br>
 
-<strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>   
-Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
+> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+{: .prompt-info}
