@@ -32,14 +32,14 @@ git cmp "Message(커밋 메시지)"
 > **cmp라는 alias를 전역 설정 --global에 추가한다**
 > 
 > **f() 셸 함수의 중 괄호 안에 git add, git commit, git push를 한번에 할 수 있게 구현 되어 있다.**
+{: .prompt-info}
    
        
           
 
 
-<br>
-<br>
+<br><br>
 
-> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
-> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+> **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
+> **Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)**
 {: .prompt-info}

@@ -477,9 +477,8 @@ ex) CoLab의 TPU 사용
 - 로지스틱 시그모이드 함수란?
 - softmax 함수란?
 
-<br>
-<br>
+<br><br>
 
-> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
-> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+> **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
+> **Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)**
 {: .prompt-info}
