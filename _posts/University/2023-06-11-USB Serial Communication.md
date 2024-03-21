@@ -122,3 +122,10 @@ image:
 - Arduino Mega ADK에서 사용
 - Arduino와 Android 장치 사이의 통신 지원
 - Android 장치에서 애플리케이션을 사용하여 아두이노의 입출력을 제어하는 것이 목적
+
+<br>
+<br>
+
+> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
+> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+{: .prompt-info}

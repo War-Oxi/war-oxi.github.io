@@ -159,5 +159,9 @@ console.log(obj[key]); //value
 5. 변수 이름은 변수의 목적이나 의미를 파악할 수 있도록 네이밍한다.
 
 
-<strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>   
-Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+<br>
+<br>
+
+> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
+> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+{: .prompt-info}

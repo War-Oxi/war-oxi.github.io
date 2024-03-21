@@ -37,4 +37,9 @@ git cmp "Message(커밋 메시지)"
           
 
 
-Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+<br>
+<br>
+
+> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
+> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+{: .prompt-info}

@@ -52,6 +52,9 @@ image:
 
 ![image-2](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/3fd3da45-c3ce-4fdf-bf24-4c7e3aaedce9)
 
+<br>
+<br>
 
-<strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>   
-Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
+> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+{: .prompt-info}

@@ -173,9 +173,9 @@ PxE를 사용하기 위해서는 PxE Server에서 DHCP 주소를 받아야하므
 
 ![image](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/7dfd87af-7abd-43dc-9ecd-b8d8745f72bd)
 
-
-
+<br>
 <br>
 
-<strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>   
-Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+> <strong>궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.</strong>
+> Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
+{: .prompt-info}
