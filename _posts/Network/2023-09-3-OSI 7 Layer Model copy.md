@@ -10,15 +10,8 @@ image:
 ---
 
 OSI 7 Layer Model은 컴퓨터 네트워크와 통신 시스템에서 사용되는 표준화된 계층 모델로, 네트워크 프로토콜과 통신을 이해하고 설명하기 위한 틀을 제공합니다.
-     
 
 <br>
-
-
-
-
-
-
 
 <center>
   <img src="https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/2d2cbf9b-ce45-4102-bbc7-96faa519384a" alt=""/>
