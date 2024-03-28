@@ -4,5 +4,7 @@
   "line-length": false,
   "no-inline-html": {
     "allowed_elements": ["kbd", "sub"]
-  }
+  },
+  "MD033": false,
+  "hard_tab": false
 }
