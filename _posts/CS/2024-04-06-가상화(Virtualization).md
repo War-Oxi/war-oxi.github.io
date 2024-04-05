@@ -1,6 +1,6 @@
 ---
 title: 가상화(Virtualization)의 종류와 개념
-date: 2023-12-13 22:54:32 +0900
+date: 2024-04-06 22:54:32 +0900
 author: kkankkandev
 categories: [CS]
 tags: [virtualization, 가상화, docker, k8s, container, vm, vmware]     # TAG names should always be lowercase
