@@ -25,12 +25,10 @@ image:
 
 	1. IP가 없는 Baremetal Client와 통신을 위해 사용됩니다
 
-
 ### 2.2 TFTP Server
 
 	1. OS설치에 필요한 절차가 담긴 설정 파일 전송을 위해사용
 	2. UDP 기반 통신 (부트 로딩)에 사용
-
 
 ### 2.3 FTP Server
 
@@ -43,24 +41,24 @@ image:
 
 CentOS는 Network설정에 NetworkManager와 /etc/sysconfig/network-script/ifcfg-ens32가 사용됩니다.  두 개의 설정이 충돌이 일어날 수 있습니다.  ftp, tftp 통신을 위해 방화벽, Selinux, NetworkManger를 꺼주도록 하겠습니다.
 
-=> **ifcfg-ens32는 상황에 따라 ens33이 될 수도 있고 eth0이 될 수도 있습니다.**
+=> **ifcfg-ens32는 상황에 따라 ens33이 될 수도 있고 eth0이 될 수도 있습니다.**  
 
-```
+```shell
 #NetworkManager 중단 및 재부팅 후 자동 실행 막기
-	systemctl disable --now NetworkManager
+systemctl disable --now NetworkManager
 
 #방화벽(firewalld) 중단 및 재부팅 후 자동 실행 막기
-	systemctl disable --now firewalld
+systemctl disable --now firewalld
 
 #Selinux 중단 및 재부팅 후 자동 실행 막기
-	sed -i s/SELINUX=enforcing/SELINUX=disabled/g /etc/selinux/config
+sed -i s/SELINUX=enforcing/SELINUX=disabled/g /etc/selinux/config
 
 #만약 위 명령어가 작동하지 않을 시 vi나 nano를 통해 /etc/selinux/config파일에 접근 후 SELINUX=enforcing에 해당하는 부분을 SELINUX=disabled로 바꿔주세요
 ```
 
 ### 3.2 dhcp 서버, tftp pacakage 다운로드 및 설정
 
-```
+```shell
 # DHCP, FTP, TFTP package 다운로드
 	yum -y install dhcp tftp-server vsftpd
 
@@ -98,13 +96,14 @@ CentOS는 Network설정에 NetworkManager와 /etc/sysconfig/network-script/ifcfg
 
 ```
 
-<p align="left"> 
-	<img src="https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/bfd3195d-71c0-444e-a070-05deba6bda59" alt=""/> 
+<p align="left">
+	<img src="https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/bfd3195d-71c0-444e-a070-05deba6bda59" alt=""/>
 </p>
 
 ### 3.3 TFTP로 운영체제 설치파일(iso), 부트로더 전송을 위한 설정  
 
 TFTP로 전송할 파일은 다음과 같습니다.
+
 1. vmlinuz      => 압축된 커널
 2. initrd.img   => 임시 저장공간으로 사용할 램디스크
 3. pxelinux.0   =>  pxe에 존재하는 부팅에 필요한 파일
@@ -112,7 +111,7 @@ TFTP로 전송할 파일은 다음과 같습니다.
 - boot-loader - 부팅을 하기 위한 로딩, 사전 절차가 들어있는 파일
 - /var/lib/tftpboot => 사용자가 tftp로 서버에 접속할 때 가는 기본 경로
 
-```
+```shell
 #mount /{iso파일이 들어있는 경로} /media
 	mount /dev/cdrom /media
 
@@ -137,7 +136,7 @@ vi /etc/xinetd.d/tftp
 
 ### 3.4 FTP로 운영체제 파일 전송을 위한 준비
 
-```
+```shell
 cp -r /media/* /var/ftp/pub
 
 mkdir /var/lib/tftpboot/pxelinux.cfg
@@ -157,10 +156,9 @@ LABEL CentOS7_Auto_Install
 systemctl enable --now vsftpd
 ```
 
-
 ## PxE를 사용해 Client에 OS 설치하기
 
-### 클라이언트에 CD/DVD가 들어있지 않음.
+### 클라이언트에 CD/DVD가 들어있지 않음
 
 PxE를 사용하기 위해서는 PxE Server에서 DHCP 주소를 받아야하므로 Network Adapter를 NAT로 설정해주었습니다. NAT 네트워크 대역(211.183.3.0 /24)
 ![image](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/9c8214d8-84ea-4e18-bcd3-3e2270cfe35c)

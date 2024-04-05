@@ -61,6 +61,7 @@ func main() {
 ```
 
 ### 예시 (anonymous function)
+
 ```go
 package main
 
