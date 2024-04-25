@@ -16,11 +16,11 @@ timezone: Asia/Seoul
 
 title: KKanKKandev # the main title
 
-tagline: Cloud & Backend # it will display as the sub-title
+tagline: Cloud & DevOps # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
 
-  Cloud & Backend 공부 기록
+  Cloud & DevOps 공부 기록
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
