@@ -115,8 +115,6 @@ kube-system   replicaset.apps/coredns-864597b5fd                 1         1    
 ## 6. 대시보드 확인
 
 ```bash
-microk8s dashboard-proxy
-
 root@i-0fefad06e169df0c3:~# microk8s dashboard-proxy
 Checking if Dashboard is running.
 Infer repository core for addon dashboard
