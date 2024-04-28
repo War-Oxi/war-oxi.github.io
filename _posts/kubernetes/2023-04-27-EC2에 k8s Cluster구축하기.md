@@ -135,7 +135,6 @@ EC2가 아닌 로컬 컴퓨터에서 확인하기 위해 Security Group에서 10
 ## 7. alias
 
 > microk8s kubectl명령어를 계속 사용하려면 번거로움이 있습니다. alias기능을 사용해 microctl로 해당 명령어를 단축시킬 수 있습니다. (kubectl로 하면 기존 kubectl 명령어와 충돌이 일어날 가능성을 염두해 microctl로 이름을 지정했습니다)
-> 
 
 ```bash
 alias microctl='microk8s kubectl'
@@ -144,7 +143,6 @@ alias microctl='microk8s kubectl'
 ## 8. nginx 배포 테스트
 
 > 간단하게 nginx 서버를 NodePort로 30080포트로 배포해보겠습니다
-> 
 
 ### 테스트용 nginx menifest 파일 (nginx_test.yml)
 
