@@ -1,6 +1,6 @@
 ---
 title: EC2위의 MicroK8s Cluster에 Local에서 명령 하기
-date: 2024-04-28 16:34:31 +0900
+date: 2024-04-27 16:34:31 +0900
 author: kkankkandev
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, tls, ssl, kubeconfig]     # TAG names should always be lowercase
