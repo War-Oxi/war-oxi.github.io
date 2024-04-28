@@ -56,7 +56,6 @@ E0428 18:15:03.852532    1268 memcache.go:265] couldn't get current server API g
 > ????? 에러가 났다.. 로그를 확인해보니 주소가.. 이상한데..? 저건 EC2 Public 주소가 아닌 Private 주소이기 떄문… 고쳐볼까??  
 {: .prompt-info}
 
-
 ```bash
 root@Zest:~/microk8s# vim kubeconfig
 root@Zest:~/microk8s# kubectl --kubeconfig=kubeconfig get nodes
@@ -153,10 +152,10 @@ NAME                  STATUS   ROLES    AGE     VERSION
 i-0fefad06e169df0c3   Ready    <none>   6m50s   v1.29.2
 ```
 
-
 ### 마무리
 
-> 여러 우여곡절 끝에 구축에 성공했지만.. 내 시간이... ㅠㅠ 다음 포스트에서는 해당 Local에서 MicroK8s에 명령어를 내리는 것을 다뤄보겠습니다. (될지는 모르겠지만..?).  
+> 중간중간 TLS 인증서를 갱신하려고 csr, crt, rsa key 생성하고 온갖 방법을 동원했었는데.. MicroK8s는 csr.conf.template를 수정해야 적용이 된다..  
+> 다른걸 고치면 무한루프의 지옥에 빠질수도..  
 > **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
 > **Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)**
 {: .prompt-tip}
