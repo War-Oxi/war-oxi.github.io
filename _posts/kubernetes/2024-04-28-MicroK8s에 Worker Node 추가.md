@@ -1,5 +1,5 @@
 ---
-title: EC2위의 MicroK8s Cluster에 Local에서 명령 하기
+title: MicroK8s에 Worker Node 추가하기
 date: 2024-05-01 23:41:11 +0900
 author: kkankkandev
 categories: [Kubernetes]
