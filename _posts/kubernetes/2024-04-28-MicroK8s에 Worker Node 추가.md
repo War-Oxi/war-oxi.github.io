@@ -3,7 +3,7 @@ title: MicroK8s에 Worker Node 추가하기
 date: 2024-05-01 23:41:11 +0900
 author: kkankkandev
 categories: [Kubernetes]
-tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, tls, ssl, kubeconfig, worker-node]     # TAG names should always be lowercase
+tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, tls, ssl, kubeconfig, worker node]     # TAG names should always be lowercase
 comments: true
 # image:
 #   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
