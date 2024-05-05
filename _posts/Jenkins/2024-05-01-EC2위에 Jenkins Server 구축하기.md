@@ -1,6 +1,6 @@
 ---
 title: EC2위의 MicroK8s Cluster에 Local에서 명령 하기
-date: 2024-04-27 16:34:31 +0900
+date: 2024-05-01 22:42:36 +0900
 author: kkankkandev
 categories: [Jenkins]
 tags: [jenkins, agent, ec2, aws, microk8s]     # TAG names should always be lowercase
