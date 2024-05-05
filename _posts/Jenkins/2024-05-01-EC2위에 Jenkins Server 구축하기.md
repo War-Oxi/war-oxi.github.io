@@ -1,5 +1,5 @@
 ---
-title: EC2위의 MicroK8s Cluster에 Local에서 명령 하기
+title: EC2위에 Jenkins Server 구축하기
 date: 2024-05-01 22:42:36 +0900
 author: kkankkandev
 categories: [Jenkins]
