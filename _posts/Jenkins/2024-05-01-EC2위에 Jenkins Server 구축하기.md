@@ -13,14 +13,14 @@ comments: true
 
 ---
 
-> 일단 이번에는 Jenkins Server를 구축하는 내용을 기반으로 포스트를 작성하겠습니다.
-> EC2 ⇒ t4g.small
-> OS ⇒ Ubuntu 24.04 LTS
+> 일단 이번에는 Jenkins Server를 구축하는 내용을 기반으로 포스트를 작성하겠습니다.  
+> EC2 ⇒ t4g.small  
+> OS ⇒ Ubuntu 24.04 LTS  
 {: .prompt-info}
 
 ## 1. Java 설치
 
-> Jenkins는 실행에 Java가 필요합니다. OpenJDK를 설치해봅시다
+> Jenkins는 실행에 Java가 필요합니다. OpenJDK를 설치해봅시다  
 {: .prompt-info}
 
 ```bash
