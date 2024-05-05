@@ -59,8 +59,8 @@ E0428 18:15:03.852532    1268 memcache.go:265] couldn't get current server API g
 ```bash
 root@Zest:~/microk8s# vim kubeconfig
 root@Zest:~/microk8s# kubectl --kubeconfig=kubeconfig get nodes
-E0428 18:19:13.211714    1348 memcache.go:265] couldn't get current server API group list: Get "https://15.165.182.77:16443/api?timeout=32s": tls: failed to verify certificate: x509: certificate is valid for 127.0.0.1, 10.152.183.1, 10.0.0.35, not 15.15.182.77
-E0428 18:19:13.224469    1348 memcache.go:265] couldn't get current server API group list: Get "https://15.165.182.77:16443/api?timeout=32s": tls: failed to verify certificate: x509: certificate is valid for 127.0.0.1, 10.152.183.1, 10.0.0.35, not 15.15.182.77
+E0428 18:19:13.211714    1348 memcache.go:265] couldn't get current server API group list: Get "https://15.15.182.77:16443/api?timeout=32s": tls: failed to verify certificate: x509: certificate is valid for 127.0.0.1, 10.152.183.1, 10.0.0.35, not 15.15.182.77
+E0428 18:19:13.224469    1348 memcache.go:265] couldn't get current server API group list: Get "https://15.15.182.77:16443/api?timeout=32s": tls: failed to verify certificate: x509: certificate is valid for 127.0.0.1, 10.152.183.1, 10.0.0.35, not 15.15.182.77
 ```
 
 ![pic](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/8a3579fa-502c-4849-981f-c4f2a8bd118e)
