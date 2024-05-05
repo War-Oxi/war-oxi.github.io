@@ -9,7 +9,7 @@ comments: true
 #   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
-> https://www.whatap.io/ko/blog/77/ 와탭랩스에서 이런 글을 올린 것을 확인했고,, 한번 적용해볼까?? 라는 생각을 하게되었습니다. 기존의 계획은 Jenkins Server를 하나 만들고 사용할 예정이었지만 우리는 저번에 MicroK8s Server를 만들었고.. 해보고 싶은건 해봐야죠??  
+> https://www.whatap.io/ko/blog/77/ 와탭랩스에서 이런 글을 올린 것을 확인했고,, 한번 적용해볼까?? 라는 생각을 하게되었습니다. 기존의 계획은 Jenkins Server를 하나 만들고 사용할 예정이었지만 우리는 저번에 MicroK8s Server를 만들었고.. 해당 클러스터를 이용해 Jenkins Agent pod를 동작 시키는 것은 어떨까요?? 아무래도.. 해보고 싶은건 해봐야겠죠??  
 ---
 > 일단 이번에는 Jenkins Server를 구축하는 내용을 기반으로 포스트를 작성하겠습니다.
 > EC2 ⇒ t4g.small
@@ -109,6 +109,7 @@ root@ip-10-0-0-24:~# cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ![Untitled](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/8392049c-02e8-4a77-baa0-98c404040780)
 
+> 다음 글에는 Kubernetes Pod를 Agent로 사용하는 방법을 올려보도록 하겠습니다
 > **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
 > **Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)**
 {: .prompt-tip}
