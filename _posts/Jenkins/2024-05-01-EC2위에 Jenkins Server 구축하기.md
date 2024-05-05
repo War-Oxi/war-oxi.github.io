@@ -1,6 +1,6 @@
 ---
 title: EC2위에 Jenkins Server 구축하기
-date: 2024-05-01 22:42:36 +0900
+date: 2024-05-02 22:42:36 +0900
 author: kkankkandev
 categories: [Jenkins]
 tags: [jenkins, agent, ec2, aws, microk8s]     # TAG names should always be lowercase
