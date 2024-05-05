@@ -9,7 +9,8 @@ comments: true
 #   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
-> https://www.whatap.io/ko/blog/77/ 와탭랩스에서 이런 글을 올린 것을 확인했고,, 한번 적용해볼까?? 라는 생각을 하게되었습니다. 기존의 계획은 Jenkins Server를 하나 만들고 사용할 예정이었지만 우리는 저번에 MicroK8s Server를 만들었고.. 해당 클러스터를 이용해 Jenkins Agent를 Pod로 동적으로 생성하는 것은 어떨까요?? 아무래도.. 해보고 싶은건 해봐야겠죠??  
+> <https://www.whatap.io/ko/blog/77/> 와탭랩스에서 이런 글을 올린 것을 확인했고,, 한번 적용해볼까?? 라는 생각을 하게되었습니다. 기존의 계획은 Jenkins Server를 하나 만들고 사용할 예정이었지만 우리는 저번에 MicroK8s Server를 만들었고.. 해당 클러스터를 이용해 Jenkins Agent를 Pod로 동적으로 생성하는 것은 어떨까요?? 아무래도.. 해보고 싶은건 해봐야겠죠??  
+{: .prompt-tip}
 
 ---
 
@@ -89,7 +90,7 @@ root@ip-10-0-0-24:~# cat /var/lib/jenkins/secrets/initialAdminPassword
 39a746af851e4dca44bcbe3669r153128ab 
 ```
 
-> 해당 비밀번호로 접속해봅시다. 
+> 해당 비밀번호로 접속해봅시다.
 {: .prompt-info}
 
 ![Untitled](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/902c0205-5850-4ef8-91e9-5c991a426301)
