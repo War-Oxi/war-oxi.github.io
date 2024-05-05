@@ -9,7 +9,7 @@ comments: true
 #   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
-> https://www.whatap.io/ko/blog/77/ 와탭랩스에서 이런 글을 올린 것을 확인했고,, 한번 적용해볼까?? 라는 생각을 하게되었습니다. 기존의 계획은 Jenkins Server를 하나 만들고 사용할 예정이었지만 우리는 저번에 MicroK8s Server를 만들었고.. 해당 클러스터를 이용해 Jenkins Agent pod를 동작 시키는 것은 어떨까요?? 아무래도.. 해보고 싶은건 해봐야겠죠??  
+> https://www.whatap.io/ko/blog/77/ 와탭랩스에서 이런 글을 올린 것을 확인했고,, 한번 적용해볼까?? 라는 생각을 하게되었습니다. 기존의 계획은 Jenkins Server를 하나 만들고 사용할 예정이었지만 우리는 저번에 MicroK8s Server를 만들었고.. 해당 클러스터를 이용해 Jenkins Agent를 Pod로 동적으로 생성하는 것은 어떨까요?? 아무래도.. 해보고 싶은건 해봐야겠죠??  
 ---
 > 일단 이번에는 Jenkins Server를 구축하는 내용을 기반으로 포스트를 작성하겠습니다.
 > EC2 ⇒ t4g.small
