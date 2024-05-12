@@ -85,22 +85,22 @@ tmpfs            96M   12K   96M   1% /run/user/1000
 > EC2 → Elastic Block Store → Volume에 들어가서 확인해보자
 {: .prompt-info}
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/b681f7c6-9157-4abe-b3c9-35c420b590bc/Untitled.png)
+![1](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/7b2fd302-7940-4f58-9fe2-f02dc5ef7443)
 
 > 해당 볼륨을 체크하고 우상단의 Actions를 누르고 Modify Volume을 누릅니다
 {: .prompt-info}
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/8094563e-dc54-4ec2-8b17-3c38e2a4beaf/Untitled.png)
+![2](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c916644d-b83a-4104-90d8-fd2fb94386a4)
 
 > Size를 우선.. 10GB에서 12GB로 늘린 후 Modify를 눌러줍시다
 {: .prompt-info}
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/287d4f32-b3fe-4dc1-956a-84fc09bbaa79/Untitled.png)
+![3](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c274b701-bd7f-4dcf-b9f6-4699a25b566d)
 
 > 변경 완료
 {: .prompt-info}
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/a2bae19b-26b4-4034-a63a-ac89e2faf4b7/Untitled.png)
+![4](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/5c8fca09-f8b9-4e20-90ee-4e439cc3bf89)
 
 ## 5. 운영체제에 볼륨 확장 적용
 
