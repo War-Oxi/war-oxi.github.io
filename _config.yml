@@ -219,10 +219,10 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+# plugins:
+#   - jekyll-sitemap
+#   - jekyll-seo-tag
+#   - jekyll-paginate
+#   - jekyll-gist
+#   - jekyll-feed
+#   - jekyll-include-cache
