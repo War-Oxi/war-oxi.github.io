@@ -2,8 +2,8 @@
 title: 시스템 엔지니어(SE) 합격, 가지 않은 이유
 date: 2024-05-19 21:53:31 +0900
 author: kkankkandev
-categories: [AWS]
-tags: [aws summit seoul, aws, summit, karpenter, region, ha, ft, monitoring, vectordb, opensearch, llm, rag]     # TAG names should always be lowercase
+categories: [Personal]
+tags: [employment, se, system engineer, aws, cloud, devops]     # TAG names should always be lowercase
 comments: true
 # image:
 #   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
