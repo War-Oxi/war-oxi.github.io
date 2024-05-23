@@ -117,10 +117,10 @@ comments:
     issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: war-oxi/war-oxi.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOJt9foA
-    category: Announcements
-    category_id: DIC_kwDOJt9foM4CXar2
+    repo: "war-oxi/war-oxi.github.io" # <gh-username>/<repo>
+    repo_id: "R_kgDOJt9foA"
+    category: "Announcements"
+    category_id: "DIC_kwDOJt9foM4CXar2"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
