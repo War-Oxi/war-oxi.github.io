@@ -14,12 +14,11 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: KKanKKandev # the main title
+title: KKamJi # the main title
 
-tagline: Cloud & DevOps # it will display as the sub-title
+tagline: Cloud & DevOps Tech Blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-
   Cloud & DevOps 공부 기록
 
 # Fill in the protocol & hostname for your site.
@@ -36,14 +35,13 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Tae Ji Kim
-  email: xowl5460@naver.com # change to your email address
+  email: rlaxowl5460@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
     - https://github.com/war-oxi # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
     - https://www.linkedin.com/in/태지-김-3b8a27268
 
 # Site Verification Settings
@@ -64,6 +62,14 @@ analytics:
     id: G-54XWELLWVV # fill in your Google Analytics ID
   goatcounter:
     id: kkamjicounter # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
 
 # Pageviews settings
 pageviews:
@@ -80,14 +86,14 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: light # [light | dark]
+theme_mode: # [light | dark]
 
-# The CDN endpoint for images.
+# The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
+# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/87055239-475b-4e8c-b3e5-c8fe594a2063"
@@ -101,20 +107,20 @@ toc: true
 
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: war-oxi/war-oxi.github.io # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    repo: # <gh-username>/<repo>
+    issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: war-oxi/war-oxi.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOJt9foA
+    category: Announcements
+    category_id: DIC_kwDOJt9foM4CXar2
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
@@ -147,6 +153,7 @@ baseurl: ""
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
@@ -207,7 +214,7 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - rollup.config.js
+  - "*.config.js"
   - package*.json
 
 jekyll-archives:
@@ -218,11 +225,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-# plugins:
-#   - jekyll-sitemap
-#   - jekyll-seo-tag
-#   - jekyll-paginate
-#   - jekyll-gist
-#   - jekyll-feed
-#   - jekyll-include-cache
