@@ -1,6 +1,6 @@
 ---
 title: 시스템 엔지니어(SE) 합격, 가지 않은 이유
-date: 2024-05-19 21:53:31 +0900
+date: 2025-05-19 21:53:31 +0900
 author: kkankkandev
 categories: [Personal]
 tags: [employment, se, system engineer, aws, cloud, devops]     # TAG names should always be lowercase
