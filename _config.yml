@@ -235,4 +235,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-Transform: AWS::Serverless-2016-10-31
+
+plugins:
+  - jekyll-seo-tag
