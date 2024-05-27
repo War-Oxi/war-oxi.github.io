@@ -22,7 +22,7 @@ description: Cloud & DevOps 공부 기록 # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: https://war-oxi.github.io
+url: "https://war-oxi.github.io"
 
 github:
   username: War-Oxi # change to your github username
@@ -238,3 +238,7 @@ jekyll-archives:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-sitemap

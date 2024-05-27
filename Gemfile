@@ -9,3 +9,7 @@ group :test do
 end
 
 gem "jekyll-seo-tag"
+gem "jekyll-archives"
+gem "jekyll-feed"
+gem "jekyll-assets"
+gem "jekyll-sitemap"

@@ -3,7 +3,7 @@ title: JavaScript 데이터 타입
 date: 2023-06-26 18:38:55 +0900
 author: kkankkandev
 categories: [Programming Language, JavaScript]
-tags: [web, javascript, js, gitblog, vscode, gitpage, datatype, javascript data type]     # TAG names should always be lowercase
+tags: [web, javascript, js, gitblog, vscode, gitpage, datatype, javascript-data-type]     # TAG names should always be lowercase
 comments: true
 # image:
 #   path: https://github.com/War-Oxi/Oxi/assets/72260110/3af8c7c9-cc3a-4fed-84d5-c736bad8ba53
