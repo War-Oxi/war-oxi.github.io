@@ -7,255 +7,240 @@ order: 4
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-## 끊임 없이 성장하는 엔지니어
+# 호기심 많은 트러블슈터
 
-# 끊임 없이 성장하는 엔지니어
-
-# 끊임 없이 성장하는 엔지니어
+> ## <span style="color:#BF8C79">소개</span>
 
 <div style="display: flex; align-items: center;">
-
-  <div style="flex: 1.5;">
+  <div style="flex: 1.2;">
     <img src="https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/63652803-688c-4c82-97fa-9dd8f1cea58f" alt="Profile Photo" style="max-width: 90%; border-radius: 8px;">
   </div>
-  
-  <div style="flex: 2; margin-left: 20px;">
-    <h3 style="color: #D49A7B;">소개</h3>
-    <p>학부 시절 AWS를 사용한 웹사이트 배포를 통해 클라우드에 대해 접하게 되었고, 졸업 후 AWS와 RAPA에서 주관한 AWS Cloud School 1기에 참여하여 클라우드 역량을 쌓아왔습니다.</p>
-    <p><strong>주어진 일을 기간 내에 완성도 높게 완수하는 것을 최우선으로 합니다.</strong> 이를 위해 Notion Calendar를 적극 사용해 구체적인 목표를 세우고, 이를 실현하기 위해 끊임없이 노력해왔습니다.</p>
-    <p><strong>새로운 기술을 습득하는 것을 좋아합니다.</strong> Docker와 Kubernetes를 학습하던 중 Go 언어를 접하게 되었고, Go 언어에 흥미를 느껴 학습 후 두 개의 프로젝트에서 Go 언어로 백엔드 개발을 한 경험이 있습니다.</p>
-    <p><strong>트러블 슈팅을 즐깁니다.</strong> Amazon Photo Query 프로젝트에서 발생한 API 성능 문제를 해결하기 위해 Go Routine, Global Accelerator 등을 도입해 API 응답 시간을 약 80% 단축시킨 경험이 있습니다.</p>
-    <p><strong>겪은 시행 착오나 공부한 기술을 공유하는 것을 좋아합니다.</strong> 현재 기술 블로그를 운영하며, 학습한 내용을 보다 확실하게 이해하고자 설명을 통해 정리하고 있습니다. 또한, 개인적으로 습득한 기술을 다른 사람들과 공유하여, 함께 성장하고 발전하는 데 기여하고자 노력하고 있습니다.</p>
+  <div style="flex: 2; margin-left: 10px;">
+    <!-- <h3 style="color: #D49A7B;">Introduce</h3> -->
+    <h4> "안녕하세요! 호기심 많은 트러블 슈터 김태지입니다." </h4>
+    <p>학부 시절 AWS를 사용한 웹사이트 배포를 통해 클라우드에 대해 접하게 되었고, 졸업 후 AWS와 RAPA에서 주관한 AWS Cloud School 1기에 참여하며 클라우드 역량을 쌓아왔습니다.</p>
+    <p>
+      - 주어진 기간 내 최고의 결과물을 만들어내기 위해 항상 최선을 다합니다.
+      <br> - 사소한 문제라도 지나치지 않고 해결하는 것을 즐깁니다.
+      <br> - 새로운 기술을 습득하는 것을 좋아합니다.
+      <br> - 누군가에게 배움을 나눌 때 큰 성취감을 느낍니다.
+      <br> - 겪은 시행 착오나 공부한 기술을 공유하는 것을 좋아합니다.
+    </p>
   </div>
-
 </div>
 
-</div>
+연락처 - 010-8813-5460  
+이메일 - xowl5460@naver.com  
+[Blog - https://war-oxi.github.io](https://war-oxi.github.io)  
+[Github - https://github.com/War-Oxi](https://github.com/War-Oxi)
 
+> ## <span style="color:#BF8C79">주요 프로젝트</span>
 
+### Amazon Photo Query - [ 2024.01 ~ 2024.03 ]
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/04ee4ee8-6d6e-4c93-a2b4-877d8ff79f09/Untitled.jpeg)
+> 기존 앨범 서비스에 AI 모델을 도입해 이미지 분류, 이미지 검색 편의성을 제공하는 서비스입니다.  
+> AWS 클라우드 상에서 MSA, 3-Tier-Architecture로 구축 및 배포하였습니다.
+{: .prompt-tip}
 
-### Contact
+[백엔드 개발 저장소 - https://github.com/War-Oxi/Amazon-Photo-Query](https://github.com/War-Oxi/Amazon-Photo-Query)  
+[EKS 배포 저장소 - https://github.com/War-Oxi/aws-app-eks-manifests](https://github.com/War-Oxi/aws-app-eks-manifests)
 
-Email <xowl5460@naver.com>
+#### 데모 영상
 
-Phone 010-8813-5460
+<table>
+  <tr>
+    <td align="center">
+      <iframe width="350" height="220" src="https://www.youtube.com/embed/373Xvy3tddM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p><strong>얼굴 기반 사진 검색</strong></p>
+    </td>
+    <td align="center">
+      <iframe width="350" height="220" src="https://www.youtube.com/embed/jOgX3f43c1Q?si=LOGMPSblNM_v2WwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p><strong>자연어로 사진 검색</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <iframe width="350" height="220" src="https://www.youtube.com/embed/GlHXMVzgk-s?si=9l69N_pEyp1g-SAa" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p><strong>태그 자동 생성 기능</strong></p>
+    </td>
+    <td align="center">
+      <iframe width="350" height="220" src="https://www.youtube.com/embed/7bvTYE_tMAg?si=rn0vQ8f-jJ5RynsL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p><strong>기본 앨범 기능</strong></p>
+    </td>
+  </tr>
+</table>
 
-### Link
+<!-- [![유사한 사진 검색](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/31dc7819-2d79-481d-8b50-0d1acd783788)](https://www.youtube.com/watch?v=373Xvy3tddM) -->
 
-Blog [https://war-oxi.github.io](https://war-oxi.github.io/)
+#### 주요역할 및 담당 ( 기여도 )
 
-GitHub  <https://github.com/War-Oxi>
+- Backend 개발 & 배포 (40+%)
+  - 이미지 CRD 기능, 이미지 리사이징 기능, 북마크 기능, 태그 기능
+  - 이미지 업로드 API 성능 80% 향상 (100%)
+- ERD 구축 및 운영 (100%)
+- AWS 인프라 구축 및 운영 (60+%)
+- EKS 모니터링 및 비용 추적 (100+%)
+- CI/CD 파이프라인 구축 (25%)
+- Cloud Architecture 설계 & 구축 (70+%)
 
-![https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3bf902c4-03b0-4218-9247-b0c8d315939b/Line_1_(1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3bf902c4-03b0-4218-9247-b0c8d315939b/Line_1_(1).png)
+#### 프로젝트 기술 스택
 
-# Introduce
+| 구분           | 기술                                                                                             |
+|----------------|--------------------------------------------------------------------------------------------------|
+| Programming    | Go, Python, Node.js, Flutter                                                                     |
+| CI/CD          | Jenkins, ArgoCD, CodeSeries                                                                      |
+| Container      | Docker, EKS, ECR                                                                                 |
+| Database       | RDS (MySQL), DynamoDB, DocumentDB                                                                |
+| Monitoring     | Prometheus, Grafana, Container Insight, KubeCost                                                 |
+| ETC            | S3, Cognito, Rekognition, Secret Manager, Terraform, SNS, SQS, Karpenter, Fluent-bit             |
+| Tools          | Notion, Slack, Postman, GitHub                                                                   |
 
-- 학부 시절 AWS를 사용한 웹사이트 배포를 통해 클라우드에 대해 접하게 되었고, 졸업 후 AWS와 RAPA에서 주관한 AWS Cloud School 1기에 참여하여 클라우드 역량을 쌓아왔습니다.
-
-- **주어진 일을 기간 내에 완성도 높게 완수하는 것을 최우선으로 합니다.** 이를 위해 Notion Calendar를 적극 사용해 구체적인 목표를 세우고, 이를 실현하기 위해 끊임없이 노력해왔습니다.
-
-- **새로운 기술을 습득하는 것을 좋아합니다.** Docker와 Kubernetes를 학습하던 중 Go 언어를 접하게 되었고, Go 언어에 흥미를 느껴 학습 후 두 개의 프로젝트에서 Go 언어로 백엔드 개발을 한 경험이 있습니다.
-
-- **트러블 슈팅을 즐깁니다.** Amazon Photo Query 프로젝트에서 발생한 API 성능 문제를 해결하기 위해 Go Routine, Global Accelerator 등을 도입해 API 응답 시간을 약 70% 단축시킨 경험이 있습니다.
-
-- **겪은 시행 착오나 공부한 기술을 공유하는 것을 좋아합니다.** 현재 기술 블로그를 운영하고 있으며 설명을 통해 한 번더 확실하게 학습한 내용을 이해하려 노력합니다. 또한 개인적으로 기술을 습득하는 것에서 그치지 않고, 습득한 기술을 공유함으로써, 구성원 전체의 기술력 향상에 기여합니다.
-
-# Experience
-
-![https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3bf902c4-03b0-4218-9247-b0c8d315939b/Line_1_(1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3bf902c4-03b0-4218-9247-b0c8d315939b/Line_1_(1).png)
-
-## Educations
-
-**AWS Cloud School 1기 [2023.08 - 2024.03]**
-
-- Cloud & DevOps 기술 교육
-- 교육과정 내 공지 게시판 개발
-- AI 앨범 서비스 개발 및 인프라 구축
-- AI 앨범 서비스 성능 최적화 (80%향상)
-
-**Rising Camp Plus 1기 [2023.07 - 2023.08]**
-
-- DB, Java Backend 교육
-- ERD 설계 및 구축
-- 회원가입, 로그인 기능 개발
-
-**중원대학교 컴퓨터공학과 [2018.03 - 2023.08]**
-
-- GPA (4.40/4.5)
-- 융합과학대학 수석 졸업
-- 학생 대표로 교내 J-Smart 사업 참여
-
-## Certifications
-
-- **AWS-SAA  [2024.02.02]**
-- **정보처리기사 [2023.09.30]**
-- **AWS-CLF [2023.05.31]**
-- **CertifiedAIExpert [2020.12.31]**
-
-## etc
-
-- AWS DevOps Jam 2등 **[2023.12]**
-- AWS Community Day 2023 참여 **[2023.10]**
-- AWS Student Community Day 2024 참여
-**[2024.04]**
-- Wanted Backend Challenge - AWS를 활용한 시스템 아키텍처 참여
-**[2024.03]**
-
-# Skills
-
-![https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3bf902c4-03b0-4218-9247-b0c8d315939b/Line_1_(1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3bf902c4-03b0-4218-9247-b0c8d315939b/Line_1_(1).png)
-
-### Cloud(AWS)
-
-- EKS, ECS, ECR
-- Lambda
-- RDS, DynamoDB
-- VPC, Route53
-- EC2, ASG, ELB
-- Code Series
-
-### Backend
-
-- Go
-- Python
-- Java
-- MySQL
-- GitHub
-- REST API
-
-### DevOps
-
-- Kubernetes
-- Docker
-- Terraform
-- Jenkins
-- ArgoCD
-- Prometheus
-- Grafana
-
-# Major Project
-
-![https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3bf902c4-03b0-4218-9247-b0c8d315939b/Line_1_(1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3bf902c4-03b0-4218-9247-b0c8d315939b/Line_1_(1).png)
-
-## Amazon Photo Query - [ 2024.01 ~ 2024.03 ]
-
-<aside>
-💡 기존 앨범 서비스에 AI 모델을 도입해 이미지 분류, 이미지 검색 편의성을 제공하는 서비스입니다. AWS 클라우드 상에서 MSA, 3-Tier-Architecture로 구축 및 배포하였습니다.
-
-</aside>
-
-### Link
-
-<https://github.com/War-Oxi/Amazon-Photo-Query>
-
-<https://github.com/hjk1996/aws-app-eks-manifests>
-
-### 주요역할 및 담당
-
-- EKS 모니터링
-- Cloud Architecture 설계 & 구축
-- Go를 사용한 Backend 개발 & 배포
-- Database 설계 & 구축
-
-### 프로젝트 기술 스택
-
-- Develop - Go, Python, Node.js, Flutter
-- CI/CD - Jenkins, ArgoCD, CodeSeries
-- Container -  Docker, EKS, ECR
-- Database - RDS(MySQL), DynamoDB, DocumentDB
-- Monitoring - Prometheus, Grafana, Container Insight, KubeCost
-- ETC - S3, Cognito, Recognition, Secret Manager, Terraform, SNS, SQS, Karpenter, Fluent-bit
-- Tools - Notion, Slack, Postman, GitHub
-
-### 주요 기능
+#### 주요 기능
 
 - 회원 가입, 로그인
-- 사진 업로드, 삭제, 조회
-- AI 모델을 사용한 사진 태그 자동 생성
-- 얼굴 인식을 사용한 사진 조회
 - 자연어를 통한 사진 검색
-- 이미지를 사용한 비슷한 이미지 검색
+- 얼굴 인식을 사용한 사진 조회
+- 태그 자동 생성
+- 사진 업로드, 삭제, 조회
 
-### 클라우드 아키텍처 구성
+#### 클라우드 아키텍처 구성
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/50e1dfd9-5d8b-4b6d-8b77-05b26457eb9d/Untitled.png)
+![Architecture](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/85603917-67cc-4df3-a02b-ec2265ea235c)
 
-### CI/CD 구성
+#### CI/CD 구성
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/3857780c-a310-4932-98c0-b77f4f6cf02f/Untitled.png)
+![CI/CD](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/054c8b31-2309-42ba-9d34-d99e743210d5)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/1813a76c-b5b5-4cd9-9154-de7392b9475f/Untitled.png)
+#### EKS모니터링
 
-### EKS모니터링
+![EKS 모니터링](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/3534ef17-b8b9-4698-941d-c8c4e7bda81f)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/013d9ad6-0007-45fb-9265-efebb747ed8e/Untitled.png)
+![EKS 모니터링(Container Insight)](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/05163450-9b6d-4c9f-927e-9e229fb6a567)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/b8995199-167c-45a4-a3c6-8b228ad86b4a/Untitled.png)
+#### 비용 추적(Kubecost)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/9a48e7da-4423-48d4-b174-f4b269d1bfd8/Untitled.png)
+![EKS 비용추적](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/f6e3bd64-3681-4ebf-a44a-ee366ec9b160)
 
-### 업로드 로직
+#### 업로드 로직
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/0b1c9a4e-36d9-4db9-a00e-31a41221fe3c/Untitled.png)
+![이미지 업로드 로직](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c3410c5e-e326-4164-8a2c-803b00a6d641)
 
-### 프로젝트 일정 관리
+#### 프로젝트 일정 관리
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/e401a7e1-be46-4758-b960-bad8a1f199a2/Untitled.png)
+![프로젝트 일정 관리](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/dfc08e2b-e621-419a-b520-52d9d87ab71d)
 
-### 의견 공유 및 공지
+#### 의견 공유 및 공지
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/7f17467c-6e04-4c5b-8173-fb9056b1a06a/Untitled.png)
+![Slack](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/90306aad-c2bb-47b5-8461-2257b180300f)
 
-# ACS-Notice Board - [ 2023.11 ]
+---
 
-<aside>
-💡 3-Tier-Architecture 기반 'AWS Cloud School 공지사항 웹어플리케이션 개발 및 배포'라는 주제로 진행한 프로젝트는 인프라 설계,구축은 물론 앱개발까지의 전 과정을 단독으로 진행했습니다. 프론트엔드는 HTML, CSS, JavaScript를 사용했으며, 백엔드는 Go의 gin-gonic 프레임워크, 데이터베이스는 MySQL을 사용했습니다. 이를 Docker Swarm을 통해 web-was-db 세 개의 컨테이너 이미지로 빌드 및 배포했습니다.
+### ACS-Notice Board - [ 2023.11 ~ 2023.12]
 
-</aside>
-
-## Link
+> 기존 AWS Cloud School 공지 시스템의 문제를 개선하기 위해 제작한 공지 서비스입니다.
+> Docker Swarm을 사용해 3-Tier-Architecture를 구현했습니다.
+{: .prompt-tip}
 
 <https://github.com/War-Oxi/ACS-1st-Notice-Board>
 
-### 주요 역할 및 담당
+#### 데모 사진
+
+![image](https://github.com/War-Oxi/ACS-1st-Notice-Board/assets/72260110/17ca9374-7930-45fb-bff8-350f05598bef)
+
+
+#### 주요 역할 및 담당 (기여도 100% - 개인 프로젝트)
 
 - 아키텍처 설계
 - 웹어플리케이션 개발 및 배포
 - 인프라 구축
-- Docker Swarm
+- Docker Swarm 세팅
+- Docker Private Repository 구축
+- Reverse Proxy 구현
 - ERD 설계
 
-### 프로젝트 기술 스택
+#### 프로젝트 기술 스택
 
-- infra - VMware Workstation Pro, Ubuntu 64Bit
-- Develop - Go(Gin-Gonic, GORM), HTML, CSS, JavaScript
-- Container -  Docker, Docker Hub, Docker Swarm
-- Database - MySQL
-- Tools - Notion, Postman, Github
-- Server - nginx
+| 구분           | 기술                                                                                             |
+|----------------|--------------------------------------------------------------------------------------------------|
+| Infra          | VMware Workstation Player16, Ubuntu 22.04 - 64Bit                                                |
+| Develop        | Go (Gin-Gonic, GORM), HTML, CSS, JavaScript                                                      |
+| Container      | Docker, Docker Private Repository, Docker Swarm                                                                 |
+| Database       | MySQL                                                                                            |
+| Tools          | Notion, Postman, GitHub                                                                          |
+| Server         | nginx                                                                                            |
 
-### 주요기능
+#### 주요기능
 
 - 게시글 생성
 - 게시글 삭제
 - 게시글 조회
 
-### 아키텍처 구조
+#### 아키텍처 구조
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/5f0ad361-691b-4e7e-824a-729d3a5ac8e4/Untitled.png)
+![ACS Architecture](https://github.com/War-Oxi/ACS-1st-Notice-Board/assets/72260110/9c10e239-64ea-4779-941e-9e078e3750b1)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/9ccaead9-4880-4bae-87ed-925d1ea4b0a7/Untitled.png)
+#### Load-Balancing 확인
 
-### 프로젝트 일정 관리
+![ACS-Load-Balancing](https://github.com/War-Oxi/ACS-1st-Notice-Board/assets/72260110/defc1d9d-7c1a-4b3a-99d6-52e0d93bf7fd)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/73a669b6-1541-459e-a5c3-60aae170bb42/Untitled.png)
+---
 
-### Load-Balancing 확인
+> ## <span style="color:#BF8C79">교육</span>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/d298479f-ef40-4fbd-a3f5-136bb87adf20/Untitled.png)
+> **AWS Cloud School 1기 [2023.08 - 2024.03]**
+> - Cloud(AWS) & DevOps 교육
+> - Network, Linux, Docker, Kubernetes, Jenkins, ArgoCD, AWS 학습
+> - 교육과정 내 공지 게시판 개발
+> - AI & Cloud 기반 앨범 서비스 "Photo Query" 팀 프로젝트 참여 (프론트앤드 1명, 백엔드 2명, 인프라 2명)
+{: .prompt-tip}
 
-### Docker Swarm Node 구성
+---
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e62537f6-257e-4132-8929-10830adce29f/5b3b3c74-e89b-417f-ad6e-dfaa0d009936/Untitled.png)
+> **Rising Camp Plus 1기 [2023.07 - 2023.08]**
+> - Java Backend 교육과정
+> - Java, Spring Boot3, JPA, MySQL, Git 학습
+> - Spring Boot 기반 채용사이트 개발 팀 프로젝트 참여 (프론트앤드 1명, 백엔드 3명)
+{: .prompt-tip}
+
+---
+
+> **중원대학교 컴퓨터공학과 [2018.03 - 2023.08]**  
+> - 융합과학대학 수석 졸업
+> - 학생 대표로 교내 J-Smart, 교수역량진단시스템 사업 참여
+> - 데이터베이스 강의 보조 활동
+> - GPA (Overall): 4.40 / 4.5
+> - GPA (Major): 4.42 / 4.5
+{: .prompt-tip}
+
+---
+
+> ## <span style="color:#BF8C79">기술스택</span>
+
+| 구분           | 기술                                                                                 |
+|----------------|--------------------------------------------------------------------------------------|
+| Programming    | Go, Python, Java, C++, Bash                                                          |
+| OS             | Windows, Ubuntu, CentOS, Rocky Linux                                                 |
+| Virtualization | KVM, VMware Workstation, Docker, Kubernetes                                          |
+| DevOps         | Jenkins, ArgoCD, Terraform, Prometheus, Grafana                                      |
+| Cloud(AWS)     | EC2, EKS, ECS, ECR, RDS, VPC, Route53, CloudFront, CloudWatch                        |
+
+> ## <span style="color:#BF8C79">자격사항</span>
+
+- **AWS Certified Solutions Architect - Associate** [2024.02.02]
+- **정보처리기사** [2023.09.30]
+- **AWS Certified Cloud Practitioner** [2023.05.31]
+- **CertifiedAIExpert** [2020.12.31]
+
+> ## <span style="color:#BF8C79">대내외 활동</span>
+
+- **AWS Summit Seoul 2024 참여** [2024.05]
+- **AWS Student Community Day 2024 참여** [2024.04]
+- **Wanted Backend Challenge - AWS를 활용한 시스템 아키텍처 참여** [2024.03]
+- **Advanced Architecting on AWS 수료** [2023.12]
+- **AWS DevOps Jam 2등** [2023.12]
+- **DevOps Engineering on AWS 수료** [2023.12]
+- **Developing on AWS 수료** [2023.12]
+- **AWS Well-Architected Best Practices 수료** [2023.11]
+- **AWS Community Day 2023 참여** [2023.10]
+- **AWS Security Essentials 수료** [2023.10]
+- **AWS Cloud Practitioner Essentials 수료** [2023.10]
