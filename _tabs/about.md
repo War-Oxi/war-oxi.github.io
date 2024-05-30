@@ -133,9 +133,17 @@ order: 4
 
 ![Slack](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/90306aad-c2bb-47b5-8461-2257b180300f)
 
+#### 트러블 슈팅
+
+> 해당 프로젝트 진행 중 **Public Subnet에서 Private Subnet로 서버**를 이전하면서 생긴 Access Deny 문제를 직면했습니다. 해결을 위해 **EKS Service Account** 개념을 공식문서를 통해 학습 후, **팀원들에게 공유**한 경험이 있습니다.  
+{: .prompt-warning}
+
+> Go로 구축한 백엔드 서버의 성능 테스트 도중 다수(500MB 700장)의 이미지를 업로드 할 때 **5분 이상의 시간과 상당한 리소스를 갑자기 사용**한다는 문제를 발견했습니다. 이를 해결하기 위해 기존 로직인 **이미지 수신 -> 압축 해제 -> 이미지 리사이징 -> 썸네일 및 오리지널 이미지 S3에 업로드 로직**에서 이미지 리사이징 기능을 Lambda함수로 분리 하였고, 버지니아 리전을 사용중이었기 때문에 생긴 네트워크 지연 시간을 감소시키기 위해 **Global Accelerator**를, 동시성 구현을 위해 **Goroutine**을 프로젝트에 도입해 **이미지 업로드 API 응답시간을 5분에서 1분 미만으로 단축**시킨 경험이 있습니다.
+{: .prompt-warning} 
+
 ---
 
-### ACS-Notice Board - [ 2023.11 ~ 2023.12]
+### ACS-Notice Board - [ 2023.11 ~ 2023.11 ]
 
 > 기존 AWS Cloud School 공지 시스템의 문제를 개선하기 위해 제작한 공지 서비스입니다.
 > Docker Swarm을 사용해 3-Tier-Architecture를 구현했습니다.
@@ -146,7 +154,6 @@ order: 4
 #### 데모 사진
 
 ![image](https://github.com/War-Oxi/ACS-1st-Notice-Board/assets/72260110/17ca9374-7930-45fb-bff8-350f05598bef)
-
 
 #### 주요 역할 및 담당 (기여도 100% - 개인 프로젝트)
 
@@ -182,6 +189,11 @@ order: 4
 #### Load-Balancing 확인
 
 ![ACS-Load-Balancing](https://github.com/War-Oxi/ACS-1st-Notice-Board/assets/72260110/defc1d9d-7c1a-4b3a-99d6-52e0d93bf7fd)
+
+#### 트러블 슈팅
+
+> 처음으로 Go 언어에 대해 학습하고 길지 않은 프로젝트 기간안에 Go 언어로 백엔드 서버 구축, Docker Swarm 노드 구성을 위한 인프라 구축에 도전하게 되면서 다양한 문제를 직면했습니다. 특히 db -> was -> web의 순서로 컨테이너가 실행되지 않아 생긴 컨테이너 재시작 문제를 해결하기 위해 docker-compose의 healthcheck, depends_on 기능을 프로젝트에 적용하였고 기대한 목표에 달성할 수 있었습니다. 
+{: .prompt-warning}
 
 ---
 
