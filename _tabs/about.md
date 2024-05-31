@@ -7,7 +7,7 @@ order: 4
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-# 호기심 많은 트러블슈터
+# 호기심 많은 트러블슈터 - 김태지 포트폴리오
 
 > ## <span style="color:#BF8C79">소개</span>
 
@@ -192,7 +192,7 @@ order: 4
 
 #### 트러블 슈팅
 
-> 처음으로 Go 언어에 대해 학습하고 길지 않은 프로젝트 기간안에 Go 언어로 백엔드 서버 구축, Docker Swarm 노드 구성을 위한 인프라 구축에 도전하게 되면서 다양한 문제를 직면했습니다. 특히 db -> was -> web의 순서로 컨테이너가 실행되지 않아 생긴 컨테이너 재시작 문제를 해결하기 위해 docker-compose의 healthcheck, depends_on 기능을 프로젝트에 적용하였고 기대한 목표에 달성할 수 있었습니다. 
+> 처음으로 Go 언어에 대해 학습하고 길지 않은 프로젝트 기간안에 Go 언어로 백엔드 서버 구축, Docker Swarm 노드 구성을 위한 인프라 구축에 도전하게 되면서 다양한 문제를 직면했습니다. 특히 db -> was -> web의 순서로 컨테이너가 실행되지 않아 생긴 컨테이너 재시작 문제를 해결하기 위해 docker-compose의 healthcheck, depends_on 기능을 프로젝트에 적용하였고 기대한 목표에 달성할 수 있었습니다.  
 {: .prompt-warning}
 
 ---
