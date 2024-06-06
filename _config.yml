@@ -119,8 +119,8 @@ comments:
     issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: kkamji98/kkamji98.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOJt9foA
+    repo: KKamJi98/kkamji98.github.io # <gh-username>/<repo>
+    repo_id: 652173216
     category: Announcements
     category_id: DIC_kwDOJt9foM4CXar2
     mapping: title # optional, default to 'pathname'
