@@ -55,7 +55,7 @@ ALIAS 레코드: 루트 도메인(@)을 다른 도메인으로 매핑
 
 
 ## 확인
-![alt text](image-3.png)
+![image5-check](https://github.com/KKamJi98/kkamji98.github.io/assets/72260110/592a2d99-8539-4d49-a389-10114be59be0)
 
 > **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
 > **Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)**
