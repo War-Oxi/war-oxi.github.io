@@ -1,12 +1,12 @@
 ---
 title: 제로부터 시작하는 러스트 백엔드 프로그래밍 - [서평단]
 date: 2024-03-19 15:34:52 +0900
-author: kkankkandev
+author: kkamji
 categories: [Programming Language, Rust]
 tags: [rust, backend, programming]     # TAG names should always be lowercase
 comments: true
 image:
-  path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/87acadfe-2601-4413-add5-6c8a482e1471
+  path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/87acadfe-2601-4413-add5-6c8a482e1471
 ---
 
 # 제로부터 시작하는 백엔드 프로그래밍

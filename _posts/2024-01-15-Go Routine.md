@@ -1,12 +1,12 @@
 ---
 title: Go Routine 이란?
 date: 2024-01-15 15:54:32 +0900
-author: kkankkandev
+author: kkamji
 categories: [Programming Language, Go]
 tags: [go, go routine, goroutine, concurrency, parallelism]     # TAG names should always be lowercase
 comments: true
 image:
-  path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/89734e1d-6afb-45dc-a6f9-8da0266bf529
+  path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/89734e1d-6afb-45dc-a6f9-8da0266bf529
 ---
 ## Go Routine - [ Concurrency vs Parallelism ]
 

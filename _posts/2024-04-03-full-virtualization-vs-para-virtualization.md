@@ -1,12 +1,12 @@
 ---
 title: 전가상화 & 반가상화 개념
 date: 2024-04-03 21:34:31 +0900
-author: kkankkandev
+author: kkamji
 categories: [CS, Virtualization]
 tags: [virtualization, docker, k8s, container, vm, vmware, fill, 전가상화, 반가상화, full virtualization, para virtualization, hypervisor]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/0794e0e2-b08e-4cc5-b640-c975f5a1a7b7
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/0794e0e2-b08e-4cc5-b640-c975f5a1a7b7
 ---
 
 

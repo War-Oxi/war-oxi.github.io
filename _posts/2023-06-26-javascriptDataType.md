@@ -1,12 +1,12 @@
 ---
 title: JavaScript 데이터 타입
 date: 2023-06-26 18:38:55 +0900
-author: kkankkandev
+author: kkamji
 categories: [Programming Language, JavaScript]
 tags: [web, javascript, js, gitblog, vscode, gitpage, datatype, javascript-data-type]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/Oxi/assets/72260110/3af8c7c9-cc3a-4fed-84d5-c736bad8ba53
+#   path: https://github.com/kkamji98/Oxi/assets/72260110/3af8c7c9-cc3a-4fed-84d5-c736bad8ba53
 ---
 
 # 데이터 타입
@@ -14,15 +14,15 @@ comments: true
 > 자바스크립트의 모든 값은 데이터 타입을 갖는다. ES6는 7개의 데이터 타입을 제공한다. 7개의 데이터 타입은 원시 타입(primitive type)과 객체 타입(object/reference type)으로 분류할 수 있다.
 > 
 
-| 구분 | 데이터 타입 | 설명 |
-| --- | --- | --- |
-|  | number 타입 | 숫자, 정수와 실수 구분 없이 하나의 숫자 타입만 존재 |
-|  | string 타입 | 문자열 |
-| 원시 타입 | boolean 타입 | 논리적 참과 거짓 |
-|  | undefined 타입 |  var 키워드로 선언된 변수에 암묵적으로 할당되는 값 |
-|  | null 타입 | 값이 없다는 것을 의도적으로 명시할 때 사용하는 값 |
-|  | symbol 타입 | ES6에서 추가된 7번째 타입 |
-| 객체 타입 |  | 객체, 함수, 배열 등 |
+| 구분      | 데이터 타입    | 설명                                                |
+| --------- | -------------- | --------------------------------------------------- |
+|           | number 타입    | 숫자, 정수와 실수 구분 없이 하나의 숫자 타입만 존재 |
+|           | string 타입    | 문자열                                              |
+| 원시 타입 | boolean 타입   | 논리적 참과 거짓                                    |
+|           | undefined 타입 | var 키워드로 선언된 변수에 암묵적으로 할당되는 값   |
+|           | null 타입      | 값이 없다는 것을 의도적으로 명시할 때 사용하는 값   |
+|           | symbol 타입    | ES6에서 추가된 7번째 타입                           |
+| 객체 타입 |                | 객체, 함수, 배열 등                                 |
 
 # 1. 숫자 타입
 

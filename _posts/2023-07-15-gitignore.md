@@ -2,12 +2,12 @@
 title: .gitignore 파일 설정 [gitignore.io]
 description: git을 사용하다보면 퍼블릭에 올라가서는 안될 자료들까지 올라가는 경우가 있습니다. 해당 문제는 .gitignore 파일을 편집해서 해결할 수 있습니다.
 date: 2023-07-09 07:24:00 +0900
-author: kkankkandev
+author: kkamji
 categories: [Git & Github]
 tags: [git add, git commit, git push, git, github, linux, alias, gitignore, gitignore.io]     # TAG names should always be lowercase
 comments: true
 image:
-  path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/10da090c-58f9-4cba-a431-7449611702e5
+  path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/10da090c-58f9-4cba-a431-7449611702e5
 ---
 
 > **git을 사용해 프로젝트 폴더나, 알고리즘 파일을 업로드 해야 할 때 업로드될 필요가 없는 파일까지 같이 업로드 되는 경우가 있습니다.**
@@ -42,15 +42,15 @@ image:
 ## 3. [gitignore.io] 홈페이지 사용법
 > 1.[gitignore.io](https://gitignore.io) 홈페이지에 들어간다.
 
-![image](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/10da090c-58f9-4cba-a431-7449611702e5)
+![image](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/10da090c-58f9-4cba-a431-7449611702e5)
 ---
 > 2.아래 Text를 입력하는 곳에 운영 체제, 개발 환경, 프로그래밍 언어를 기입하고 생성 버튼을 누른다   
 
-![image-1](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/e63013d7-3093-4c9a-bb70-bef2792bfacf)
+![image-1](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/e63013d7-3093-4c9a-bb70-bef2792bfacf)
 ---
 > 3.넘어간 페이지에서 Ctrl + A 혹은 Command + A를 눌러 소스코드를 전체 복사한 뒤 .**gitignore** 파일에 추가해준다
 
-![image-2](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/3fd3da45-c3ce-4fdf-bf24-4c7e3aaedce9)
+![image-2](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/3fd3da45-c3ce-4fdf-bf24-4c7e3aaedce9)
 
 <br><br>
 

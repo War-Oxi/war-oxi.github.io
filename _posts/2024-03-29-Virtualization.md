@@ -1,12 +1,12 @@
 ---
 title: 가상화(Virtualization)의 종류와 개념
 date: 2024-03-29 21:53:31 +0900
-author: kkankkandev
+author: kkamji
 categories: [CS, Virtualization]
 tags: [virtualization, docker, k8s, container, vm, vmware]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
 ## 가상화란?

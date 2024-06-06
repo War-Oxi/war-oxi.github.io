@@ -1,12 +1,12 @@
 ---
 title: EC2위에 Kubernetes Cluster 구축하기 (MicroK8s)
 date: 2024-04-25 22:54:32 +0900
-author: kkankkandev
+author: kkamji
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
 > 필자는 맥북과 윈도우 데스크탑 환경을 사용하고 있습니다. EKS Cluster의 context를 가져와 하나의 Kubernetes 클러스터를 두 환경에서 공유해서 사용하고 있었으나….  
@@ -20,7 +20,7 @@ comments: true
 
 다음으로 MicroK8s의 권장 스펙입니다.
 
-![pic1](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/851e5fb2-d785-47fb-9014-22a798aa11e9)
+![pic1](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/851e5fb2-d785-47fb-9014-22a798aa11e9)
 
 > 4G의 memory가 필요하긴하지만… 일단 해보자
 
@@ -129,9 +129,9 @@ eyJhbGciOiJSUzI1NiIsImtpZCI6ImVHaExXbGJtQUpjMHc0SFl5SHMtWGxKODQ3LUdOcEZFRnNTSVRa
 
 EC2가 아닌 로컬 컴퓨터에서 확인하기 위해 Security Group에서 10443 포트를 열고 해당 EC2의 10443포트에 브라우저로 접속을 시도했습니다. (맨 아랫줄의 token 입력 필수)
 
-![pic2](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/b7877cf0-9d05-4a21-87e5-93083080250a)
+![pic2](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/b7877cf0-9d05-4a21-87e5-93083080250a)
 
-![pic3](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/b5751561-ce04-425b-a759-10b496110f07)
+![pic3](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/b5751561-ce04-425b-a759-10b496110f07)
 
 ## 7. alias
 
@@ -201,7 +201,7 @@ kubernetes      ClusterIP   10.152.183.1    <none>        443/TCP        95m
 nginx-service   NodePort    10.152.183.56   <none>        80:30080/TCP   80s
 ```
 
-![pic4](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/6b31c129-84cf-4cc4-928a-79dc7b850f86)
+![pic4](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/6b31c129-84cf-4cc4-928a-79dc7b850f86)
 
 ### 마무리
 

@@ -1,12 +1,12 @@
 ---
 title: Type 1 & Type 2 가상화의 개념
 date: 2024-04-01 21:54:36 +0900
-author: kkankkandev
+author: kkamji
 categories: [CS, Virtualization]
 tags: [virtualization, docker, k8s, container, vm, vmware, type 1 virtualization, type 2 virtualization, hypervisor]     # TAG names should always be lowercase
 comments: true
 image:
-  path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/0794e0e2-b08e-4cc5-b640-c975f5a1a7b7
+  path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/0794e0e2-b08e-4cc5-b640-c975f5a1a7b7
 ---
 
 

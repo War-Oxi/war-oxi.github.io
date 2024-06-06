@@ -1,15 +1,15 @@
 ---
 title: MicroK8s에 Worker Node 추가하기
 date: 2024-05-01 23:41:11 +0900
-author: kkankkandev
+author: kkamji
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, tls, ssl, kubeconfig, worker node]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
-> 저번시간에는 [EC2상의 MicroK8s Cluster에 Local에서 명령하기](https://war-oxi.github.io/posts/MicroK8s-Local%EC%97%90%EC%84%9C-%EB%AA%85%EB%A0%B9/) Local에서 EC2위에 있는 MicroK8s의 kubeconfig를 가져와 명령하는 방법을 다뤄보았습니다. 이번 포스트에서는 MicroK8s에 Worker Node를 추가하는 실습을 다뤄보겠습니다.
+> 저번시간에는 [EC2상의 MicroK8s Cluster에 Local에서 명령하기](https://kkamji98.github.io/posts/MicroK8s-Local%EC%97%90%EC%84%9C-%EB%AA%85%EB%A0%B9/) Local에서 EC2위에 있는 MicroK8s의 kubeconfig를 가져와 명령하는 방법을 다뤄보았습니다. 이번 포스트에서는 MicroK8s에 Worker Node를 추가하는 실습을 다뤄보겠습니다.
 {: .prompt-info}
 
 ## 1. EC2 Worker Node 생성
@@ -19,7 +19,7 @@ Spec
 - t2.micro
 - Ubuntu 24.04 LTS
 
-![image](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/96396a50-9f2e-4def-a734-460e8d28a978)
+![image](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/96396a50-9f2e-4def-a734-460e8d28a978)
 
 ## 2. Microk8s 설치 ( Worker Node )
 

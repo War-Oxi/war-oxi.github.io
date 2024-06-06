@@ -1,12 +1,12 @@
 ---
 title: EC2위의 MicroK8s Cluster에 Local에서 명령 하기
 date: 2024-04-27 16:34:31 +0900
-author: kkankkandev
+author: kkamji
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, tls, ssl, kubeconfig]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
 > 저번 시간에 EC2위에 MicroK8s Cluster를 구축후 web server를 배포하는 것까지 다뤘습니다..  
@@ -63,7 +63,7 @@ E0428 18:19:13.211714    1348 memcache.go:265] couldn't get current server API g
 E0428 18:19:13.224469    1348 memcache.go:265] couldn't get current server API group list: Get "https://15.15.182.77:16443/api?timeout=32s": tls: failed to verify certificate: x509: certificate is valid for 127.0.0.1, 10.152.183.1, 10.0.0.35, not 15.15.182.77
 ```
 
-![pic](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/8a3579fa-502c-4849-981f-c4f2a8bd118e)
+![pic](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/8a3579fa-502c-4849-981f-c4f2a8bd118e)
 
 public IP로 수정
 

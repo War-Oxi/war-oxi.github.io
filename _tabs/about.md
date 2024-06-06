@@ -13,7 +13,7 @@ order: 4
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1.2;">
-    <img src="https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/63652803-688c-4c82-97fa-9dd8f1cea58f" alt="Profile Photo" style="max-width: 90%; border-radius: 8px;">
+    <img src="https://github.com/kkamji98/kkamji98.github.io/assets/72260110/63652803-688c-4c82-97fa-9dd8f1cea58f" alt="Profile Photo" style="max-width: 90%; border-radius: 8px;">
   </div>
   <div style="flex: 2; margin-left: 10px;">
     <!-- <h3 style="color: #D49A7B;">Introduce</h3> -->
@@ -31,8 +31,8 @@ order: 4
 
 연락처 - 010-8813-5460  
 이메일 - xowl5460@naver.com  
-[Blog - https://war-oxi.github.io](https://war-oxi.github.io)  
-[Github - https://github.com/War-Oxi](https://github.com/War-Oxi)
+[Blog - https://kkamji98.github.io](https://kkamji98.github.io)  
+[Github - https://github.com/kkamji98](https://github.com/kkamji98)
 
 > ## <span style="color:#BF8C79">주요 프로젝트</span>
 
@@ -42,8 +42,8 @@ order: 4
 > AWS 클라우드 상에서 MSA, 3-Tier-Architecture로 구축 및 배포하였습니다.
 {: .prompt-tip}
 
-[백엔드 개발 저장소 - https://github.com/War-Oxi/Amazon-Photo-Query](https://github.com/War-Oxi/Amazon-Photo-Query)  
-[EKS 배포 저장소 - https://github.com/War-Oxi/aws-app-eks-manifests](https://github.com/War-Oxi/aws-app-eks-manifests)
+[백엔드 개발 저장소 - https://github.com/kkamji98/Amazon-Photo-Query](https://github.com/kkamji98/Amazon-Photo-Query)  
+[EKS 배포 저장소 - https://github.com/kkamji98/aws-app-eks-manifests](https://github.com/kkamji98/aws-app-eks-manifests)
 
 #### 데모 영상
 
@@ -70,7 +70,7 @@ order: 4
   </tr>
 </table>
 
-<!-- [![유사한 사진 검색](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/31dc7819-2d79-481d-8b50-0d1acd783788)](https://www.youtube.com/watch?v=373Xvy3tddM) -->
+<!-- [![유사한 사진 검색](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/31dc7819-2d79-481d-8b50-0d1acd783788)](https://www.youtube.com/watch?v=373Xvy3tddM) -->
 
 #### 주요역할 및 담당 ( 기여도 )
 
@@ -85,15 +85,15 @@ order: 4
 
 #### 프로젝트 기술 스택
 
-| 구분           | 기술                                                                                             |
-|----------------|--------------------------------------------------------------------------------------------------|
-| Programming    | Go, Python, Node.js, Flutter                                                                     |
-| CI/CD          | Jenkins, ArgoCD, CodeSeries                                                                      |
-| Container      | Docker, EKS, ECR                                                                                 |
-| Database       | RDS (MySQL), DynamoDB, DocumentDB                                                                |
-| Monitoring     | Prometheus, Grafana, Container Insight, KubeCost                                                 |
-| ETC            | S3, Cognito, Rekognition, Secret Manager, Terraform, SNS, SQS, Karpenter, Fluent-bit             |
-| Tools          | Notion, Slack, Postman, GitHub                                                                   |
+| 구분        | 기술                                                                                 |
+| ----------- | ------------------------------------------------------------------------------------ |
+| Programming | Go, Python, Node.js, Flutter                                                         |
+| CI/CD       | Jenkins, ArgoCD, CodeSeries                                                          |
+| Container   | Docker, EKS, ECR                                                                     |
+| Database    | RDS (MySQL), DynamoDB, DocumentDB                                                    |
+| Monitoring  | Prometheus, Grafana, Container Insight, KubeCost                                     |
+| ETC         | S3, Cognito, Rekognition, Secret Manager, Terraform, SNS, SQS, Karpenter, Fluent-bit |
+| Tools       | Notion, Slack, Postman, GitHub                                                       |
 
 #### 주요 기능
 
@@ -105,33 +105,33 @@ order: 4
 
 #### 클라우드 아키텍처 구성
 
-![Architecture](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/85603917-67cc-4df3-a02b-ec2265ea235c)
+![Architecture](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/85603917-67cc-4df3-a02b-ec2265ea235c)
 
 #### CI/CD 구성
 
-![CI/CD](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/054c8b31-2309-42ba-9d34-d99e743210d5)
+![CI/CD](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/054c8b31-2309-42ba-9d34-d99e743210d5)
 
 #### EKS모니터링
 
-![EKS 모니터링](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/3534ef17-b8b9-4698-941d-c8c4e7bda81f)
+![EKS 모니터링](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/3534ef17-b8b9-4698-941d-c8c4e7bda81f)
 
-![EKS 모니터링(Container Insight)](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/05163450-9b6d-4c9f-927e-9e229fb6a567)
+![EKS 모니터링(Container Insight)](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/05163450-9b6d-4c9f-927e-9e229fb6a567)
 
 #### 비용 추적(Kubecost)
 
-![EKS 비용추적](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/f6e3bd64-3681-4ebf-a44a-ee366ec9b160)
+![EKS 비용추적](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/f6e3bd64-3681-4ebf-a44a-ee366ec9b160)
 
 #### 업로드 로직
 
-![이미지 업로드 로직](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c3410c5e-e326-4164-8a2c-803b00a6d641)
+![이미지 업로드 로직](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c3410c5e-e326-4164-8a2c-803b00a6d641)
 
 #### 프로젝트 일정 관리
 
-![프로젝트 일정 관리](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/dfc08e2b-e621-419a-b520-52d9d87ab71d)
+![프로젝트 일정 관리](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/dfc08e2b-e621-419a-b520-52d9d87ab71d)
 
 #### 의견 공유 및 공지
 
-![Slack](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/90306aad-c2bb-47b5-8461-2257b180300f)
+![Slack](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/90306aad-c2bb-47b5-8461-2257b180300f)
 
 #### 트러블 슈팅
 
@@ -149,11 +149,11 @@ order: 4
 > Docker Swarm을 사용해 3-Tier-Architecture를 구현했습니다.
 {: .prompt-tip}
 
-<https://github.com/War-Oxi/ACS-1st-Notice-Board>
+<https://github.com/kkamji98/ACS-1st-Notice-Board>
 
 #### 데모 사진
 
-![image](https://github.com/War-Oxi/ACS-1st-Notice-Board/assets/72260110/17ca9374-7930-45fb-bff8-350f05598bef)
+![image](https://github.com/kkamji98/ACS-1st-Notice-Board/assets/72260110/17ca9374-7930-45fb-bff8-350f05598bef)
 
 #### 주요 역할 및 담당 (기여도 100% - 개인 프로젝트)
 
@@ -167,14 +167,14 @@ order: 4
 
 #### 프로젝트 기술 스택
 
-| 구분           | 기술                                                                                             |
-|----------------|--------------------------------------------------------------------------------------------------|
-| Infra          | VMware Workstation Player16, Ubuntu 22.04 - 64Bit                                                |
-| Develop        | Go (Gin-Gonic, GORM), HTML, CSS, JavaScript                                                      |
-| Container      | Docker, Docker Private Repository, Docker Swarm                                                                 |
-| Database       | MySQL                                                                                            |
-| Tools          | Notion, Postman, GitHub                                                                          |
-| Server         | nginx                                                                                            |
+| 구분      | 기술                                              |
+| --------- | ------------------------------------------------- |
+| Infra     | VMware Workstation Player16, Ubuntu 22.04 - 64Bit |
+| Develop   | Go (Gin-Gonic, GORM), HTML, CSS, JavaScript       |
+| Container | Docker, Docker Private Repository, Docker Swarm   |
+| Database  | MySQL                                             |
+| Tools     | Notion, Postman, GitHub                           |
+| Server    | nginx                                             |
 
 #### 주요기능
 
@@ -184,11 +184,11 @@ order: 4
 
 #### 아키텍처 구조
 
-![ACS Architecture](https://github.com/War-Oxi/ACS-1st-Notice-Board/assets/72260110/9c10e239-64ea-4779-941e-9e078e3750b1)
+![ACS Architecture](https://github.com/kkamji98/ACS-1st-Notice-Board/assets/72260110/9c10e239-64ea-4779-941e-9e078e3750b1)
 
 #### Load-Balancing 확인
 
-![ACS-Load-Balancing](https://github.com/War-Oxi/ACS-1st-Notice-Board/assets/72260110/defc1d9d-7c1a-4b3a-99d6-52e0d93bf7fd)
+![ACS-Load-Balancing](https://github.com/kkamji98/ACS-1st-Notice-Board/assets/72260110/defc1d9d-7c1a-4b3a-99d6-52e0d93bf7fd)
 
 #### 트러블 슈팅
 
@@ -228,13 +228,13 @@ order: 4
 
 > ## <span style="color:#BF8C79">기술스택</span>
 
-| 구분           | 기술                                                                                 |
-|----------------|--------------------------------------------------------------------------------------|
-| Programming    | Go, Python, Java, C++, Bash                                                          |
-| OS             | Windows, Ubuntu, CentOS, Rocky Linux                                                 |
-| Virtualization | KVM, VMware Workstation, Docker, Kubernetes                                          |
-| DevOps         | Jenkins, ArgoCD, Terraform, Prometheus, Grafana                                      |
-| Cloud(AWS)     | EC2, EKS, ECS, ECR, RDS, VPC, Route53, CloudFront, CloudWatch                        |
+| 구분           | 기술                                                          |
+| -------------- | ------------------------------------------------------------- |
+| Programming    | Go, Python, Java, C++, Bash                                   |
+| OS             | Windows, Ubuntu, CentOS, Rocky Linux                          |
+| Virtualization | KVM, VMware Workstation, Docker, Kubernetes                   |
+| DevOps         | Jenkins, ArgoCD, Terraform, Prometheus, Grafana               |
+| Cloud(AWS)     | EC2, EKS, ECS, ECR, RDS, VPC, Route53, CloudFront, CloudWatch |
 
 > ## <span style="color:#BF8C79">자격사항</span>
 

@@ -1,12 +1,12 @@
 ---
 title: EC2위에 Jenkins Server 구축하기
 date: 2024-05-02 22:42:36 +0900
-author: kkankkandev
+author: kkamji
 categories: [Jenkins]
 tags: [jenkins, agent, ec2, aws, microk8s]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
 > <https://www.whatap.io/ko/blog/77/> 와탭랩스에서 이런 글을 올린 것을 확인했고,, 한번 적용해볼까?? 라는 생각을 하게되었습니다. 기존의 계획은 Jenkins Server를 하나 만들고 사용할 예정이었지만 우리는 저번에 MicroK8s Server를 만들었고.. 해당 클러스터를 이용해 Jenkins Agent를 Pod로 동적으로 생성하는 것은 어떨까요?? 아무래도.. 해보고 싶은건 해봐야겠죠??  
@@ -80,7 +80,7 @@ lines 1-20/20 (END)
 > 위와 같이 웹브라우저에서 접속해줍니다.  
 {: .prompt-info}
 
-![Untitled](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/54600af8-b49f-4694-a9f0-6bc047ad7ce1)
+![Untitled](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/54600af8-b49f-4694-a9f0-6bc047ad7ce1)
 
 > 비밀번호가 필요한 것을 알 수 있습니다. /var/lib/jenkins/secrets/initialAdminPassword를 확인해볼까요?
 {: .prompt-info}
@@ -93,7 +93,7 @@ root@ip-10-0-0-24:~# cat /var/lib/jenkins/secrets/initialAdminPassword
 > 해당 비밀번호로 접속해봅시다.
 {: .prompt-info}
 
-![Untitled](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/902c0205-5850-4ef8-91e9-5c991a426301)
+![Untitled](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/902c0205-5850-4ef8-91e9-5c991a426301)
 
 > 접속 했습니다. Install suggested plugins를 눌러 기본 플러그인을 설치해볼게요.
 {: .prompt-info}
@@ -104,13 +104,13 @@ root@ip-10-0-0-24:~# cat /var/lib/jenkins/secrets/initialAdminPassword
 > ~~플러그인 설치하다가 캡쳐 까먹은건 비밀~~.  
 {: .prompt-info}
 
-![Untitled](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/a081faf3-b58c-48db-9446-734d63903d0a)
+![Untitled](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/a081faf3-b58c-48db-9446-734d63903d0a)
 
-![Untitled](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/5de1886f-9751-43bd-9d83-b5dcd8505298)
+![Untitled](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/5de1886f-9751-43bd-9d83-b5dcd8505298)
 
 ## 마무리
 
-![Untitled](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/8392049c-02e8-4a77-baa0-98c404040780)
+![Untitled](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/8392049c-02e8-4a77-baa0-98c404040780)
 
 > 다음 글에는 Kubernetes Pod를 Agent로 사용하는 방법을 올려보도록 하겠습니다.  
 > **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  

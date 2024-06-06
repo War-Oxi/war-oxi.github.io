@@ -1,13 +1,13 @@
 ---
 title: 블로그의 방향성
 date: 2023-06-11 20:37:00 +0900
-author: kkankkandev
+author: kkamji
 categories: [Personal]
-tags: [kkankkandev]     # TAG names should always be lowercase
+tags: [kkamji]     # TAG names should always be lowercase
 comments: true
 pin: true
 image: 
-    path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/87055239-475b-4e8c-b3e5-c8fe594a2063
+    path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/87055239-475b-4e8c-b3e5-c8fe594a2063
 ---
 
 ## Github Blog

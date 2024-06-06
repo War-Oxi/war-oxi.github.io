@@ -1,12 +1,12 @@
 ---
 title: Metric-Server란? (구축 방법)
 date: 2024-05-03 23:35:15 +0900
-author: kkankkandev
+author: kkamji
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, metric, metric server, worker node, monitoring]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
 > Kubernetes Cluster를 관리하기 위해서는 성능 metric을 모니터링하고 지표를 저장한 뒤 지표 데이터에 대한 분석을 제공할 수 있는 솔루션이 필요합니다. 오픈 소스 모니터링 솔루션에는 Metric Server, Prometheus, Elastic Stack, DataDog 등이 있지만 이번 시간에는 가장 기본적인 Metric Server를 클러스터에 설치해보도록 하겠습니다.  

@@ -1,12 +1,12 @@
 ---
 title: Deep Learning과 TemsorFlow
 date: 2023-06-13 13:15:55 +0900
-author: kkankkandev
+author: kkamji
 categories: [University]
 comments: true
 tags: [tensorFlow, deep-learning]     # TAG names should always be lowercase
 image:
-  path: https://github.com/War-Oxi/Oxi/assets/72260110/110eebe0-5912-46b5-8b9e-631db9c8e05e
+  path: https://github.com/kkamji98/Oxi/assets/72260110/110eebe0-5912-46b5-8b9e-631db9c8e05e
 
 ---
 
@@ -317,9 +317,9 @@ plt.grid()
 plt.show()
 ```
 
-![Untitled](https://github.com/War-Oxi/Oxi/assets/72260110/110eebe0-5912-46b5-8b9e-631db9c8e05e)
+![Untitled](https://github.com/kkamji98/Oxi/assets/72260110/110eebe0-5912-46b5-8b9e-631db9c8e05e)
 
-![Untitled](https://github.com/War-Oxi/Oxi/assets/72260110/0a631ffe-f747-4286-acfa-9be99cb85dba)
+![Untitled](https://github.com/kkamji98/Oxi/assets/72260110/0a631ffe-f747-4286-acfa-9be99cb85dba)
 
 ## 5. 깊은 다층 퍼셉트론
 

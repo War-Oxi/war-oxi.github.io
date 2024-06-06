@@ -1,12 +1,12 @@
 ---
 title: Pod가 계속 종료되지 않음 + EBS Volume 확장
 date: 2024-05-05 21:46:52 +0900
-author: kkankkandev
+author: kkamji
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, api-server, terminating, ebs, volume,  kubelet, aws, ec2, ubuntu]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 > `kubectl delete pod simple-webapp-color`로 pod를 삭제하려 했는데 바로 삭제가 안되서 기다리면 삭제되겠지.. 하면서 다른 일을 하다가 다음날 확인을 해봤는데 아직도 `Terminating` 상태였다.. 그래서 이번에는 Pod가 Terminating 상태에 계속 머물러 있는 원인에 대해 다뤄보겠습니다.
 {: .prompt-info}
@@ -85,22 +85,22 @@ tmpfs            96M   12K   96M   1% /run/user/1000
 > EC2 → Elastic Block Store → Volume에 들어가서 확인해보자
 {: .prompt-info}
 
-![1](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/7b2fd302-7940-4f58-9fe2-f02dc5ef7443)
+![1](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/7b2fd302-7940-4f58-9fe2-f02dc5ef7443)
 
 > 해당 볼륨을 체크하고 우상단의 Actions를 누르고 Modify Volume을 누릅니다
 {: .prompt-info}
 
-![2](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c916644d-b83a-4104-90d8-fd2fb94386a4)
+![2](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c916644d-b83a-4104-90d8-fd2fb94386a4)
 
 > Size를 우선.. 10GB에서 12GB로 늘린 후 Modify를 눌러줍시다
 {: .prompt-info}
 
-![3](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c274b701-bd7f-4dcf-b9f6-4699a25b566d)
+![3](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c274b701-bd7f-4dcf-b9f6-4699a25b566d)
 
 > 변경 완료
 {: .prompt-info}
 
-![4](https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/5c8fca09-f8b9-4e20-90ee-4e439cc3bf89)
+![4](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/5c8fca09-f8b9-4e20-90ee-4e439cc3bf89)
 
 ## 5. 운영체제에 볼륨 확장 적용
 

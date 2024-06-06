@@ -1,12 +1,12 @@
 ---
 title: JavaScript 연산자
 date: 2023-06-25 18:38:55 +0900
-author: kkankkandev
+author: kkamji
 categories: [Programming Language, JavaScript]
 tags: [web, javascript, js, gitblog, vscode, gitpage, js연산자, 연산자]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/Oxi/assets/72260110/3af8c7c9-cc3a-4fed-84d5-c736bad8ba53
+#   path: https://github.com/kkamji98/Oxi/assets/72260110/3af8c7c9-cc3a-4fed-84d5-c736bad8ba53
 ---
 
 ## 연산자
@@ -101,12 +101,12 @@ console.log(x); == true
 
 ### 2.1 동등/일치 비교 연산자
 
-| 비교 연산자 | 의미 | 사례 | 설명 | 부수 효과 |
-| --- | --- | --- | --- | --- |
-| == | 동등 비교 | x == y | x와 y의 값이 같은 | X |
-| === | 일치 비교 | x === y | x와 y의 값과 타입이 같음 | X |
-| != | 부동등 비교 | x != y | x와 y의 값이 다름 | X |
-| !== | 불일치 비교 | x !== y | x와 y의 값과 타입이 다름 | X |
+| 비교 연산자 | 의미        | 사례    | 설명                     | 부수 효과 |
+| ----------- | ----------- | ------- | ------------------------ | --------- |
+| ==          | 동등 비교   | x == y  | x와 y의 값이 같은        | X         |
+| ===         | 일치 비교   | x === y | x와 y의 값과 타입이 같음 | X         |
+| !=          | 부동등 비교 | x != y  | x와 y의 값이 다름        | X         |
+| !==         | 불일치 비교 | x !== y | x와 y의 값과 타입이 다름 | X         |
 - 동등 비교(==) 연산자는 좌항과 우항의 피연산자를 비교할 때 먼저 암묵적 타입 변환을 통해 타입을 일치시킨 후 같은 값인지 비교한다.
     
     ***좌항과 우항의 피연산자가 다른 타입이더라도 암묵적 타입 변환 후 같은 값이면 true를 반환**

@@ -1,12 +1,12 @@
 ---
 title: AWS Summit Seoul 2024
 date: 2024-05-17 21:53:31 +0900
-author: kkankkandev
+author: kkamji
 categories: [AWS]
 tags: [aws summit seoul, aws, summit, karpenter, region, ha, ft, monitoring, vectordb, opensearch, llm, rag]     # TAG names should always be lowercase
 comments: true
 # image:
-#   path: https://github.com/War-Oxi/war-oxi.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
 AWS Summit은 AWS에서 주최하는 국내 최대의 IT 클라우드 행사입니다. 클라우드 기술을 선도하는 다양한 회사들이 참여하며, 다양한 성공 사례와 최신 기술 트렌드를 접할 수 있습니다.
