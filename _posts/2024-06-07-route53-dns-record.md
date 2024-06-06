@@ -1,6 +1,6 @@
 ---
 title: DNS 레코드 설정하기 (Route 53)
-date: 2024-06-06 23:31:44 +0900
+date: 2024-06-07 08:31:44 +0900
 author: kkamji
 categories: [AWS]
 tags: [route53, domain, aws, github pages, jekyll, blog, kkamji, cname, a record]     # TAG names should always be lowercase
