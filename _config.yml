@@ -108,7 +108,7 @@ toc: true
 
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
-  provider: giscus # [disqus | utterances | giscus]
+  provider: # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: null
@@ -119,10 +119,10 @@ comments:
     issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: KKamJi98/kkamji98.github.io # <gh-username>/<repo>
-    repo_id: 652173216
-    category: Announcements
-    category_id: DIC_kwDOJt9foM4CXar2
+    repo: "KKamJi98/kkamji98.github.io" # <gh-username>/<repo>
+    repo_id: "R_kgDOJt9foA"
+    category: "Announcements"
+    category_id: "DIC_kwDOJt9foM4CXar2"
     mapping: title # optional, default to 'pathname'
     strict: null # optional, default to '0'
     input_position: null # optional, default to 'bottom'
