@@ -11,7 +11,7 @@ comments: true
 
 
 저번 시간에 route53을 통해 구매한 kkamji.net 도메인을 해당 블로그가 사용하기 위해 route53을 사용해서 DNS Record 설정하는 과정에 대해 다뤄보겠습니다.  
-해당 과정을 거치면 www.kkamji.net, kkamji.net 두 개의 방법으로 블로그에 접근이 가능합니다.
+해당 과정을 거치면 <https://www.kkamji.net>, <https://kkamji.net> 두 개의 방법으로 블로그에 접근이 가능합니다.
 
 ## 주요 DNS Record 유형
 
@@ -28,7 +28,7 @@ ALIAS 레코드: 루트 도메인(@)을 다른 도메인으로 매핑
 
 ## A 레코드 설정
 
-1. A 레코드를 생성하기 위해 Route53 > Hosted zones > 설정할 도메인에 들어가준 뒤 Create record를 클릭합니다
+1. A 레코드를 생성하기 위해 Route53 > Hosted zones > 설정할 도메인에 들어가준 뒤 Create record를 클릭합니다.
     ![image1](https://github.com/KKamJi98/kkamji98.github.io/assets/72260110/b5c65780-bf33-47e4-ba7c-51e0067b5bdf)
 2. Record type에서 A 속성을 선택한 뒤, Github Pages의 IP 주소를 입력합니다. Routing policy는 가중치 기반 라우팅, 거리 기반 라우팅 등의 설정이 있지만 단순 라우팅으로 설정했습니다.
     ![image2-a record](https://github.com/KKamJi98/kkamji98.github.io/assets/72260110/5a8f1e2c-08ae-496f-8889-2f432d472f5b)
@@ -53,8 +53,8 @@ ALIAS 레코드: 루트 도메인(@)을 다른 도메인으로 매핑
    {: .prompt-info}
     ![image4-github pages setting](https://github.com/KKamJi98/kkamji98.github.io/assets/72260110/80536c16-e959-4952-92a7-ee0fe0dda81b)
 
-
 ## 확인
+
 ![image5-check](https://github.com/KKamJi98/kkamji98.github.io/assets/72260110/592a2d99-8539-4d49-a389-10114be59be0)
 
 > **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
