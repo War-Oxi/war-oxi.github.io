@@ -2,8 +2,8 @@
 title: Horizontal Pod Autoscaling 구성, 원리
 date: 2024-06-08 08:31:44 +0900
 author: kkamji
-categories: [AWS]
-tags: [route53, domain, aws, github pages, jekyll, blog, kkamji, cname, a record]     # TAG names should always be lowercase
+categories: [Kubernetes]
+tags: [kubernetes, hpa, auto scaling, deployment, service, load-generator, metrics server]     # TAG names should always be lowercase
 comments: true
 # image:
 #   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c

@@ -1,18 +1,18 @@
 ---
-title: Metric-Server란? (구축 방법)
+title: Metrics-Server란? (구축 방법)
 date: 2024-05-03 23:35:15 +0900
 author: kkamji
 categories: [Kubernetes]
-tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, metric, metric server, worker node, monitoring]     # TAG names should always be lowercase
+tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, metric, metrics server, worker node, monitoring]     # TAG names should always be lowercase
 comments: true
 # image:
 #   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
 ---
 
-> Kubernetes Cluster를 관리하기 위해서는 성능 metric을 모니터링하고 지표를 저장한 뒤 지표 데이터에 대한 분석을 제공할 수 있는 솔루션이 필요합니다. 오픈 소스 모니터링 솔루션에는 Metric Server, Prometheus, Elastic Stack, DataDog 등이 있지만 이번 시간에는 가장 기본적인 Metric Server를 클러스터에 설치해보도록 하겠습니다.  
+> Kubernetes Cluster를 관리하기 위해서는 성능 metrics을 모니터링하고 지표를 저장한 뒤 지표 데이터에 대한 분석을 제공할 수 있는 솔루션이 필요합니다. 오픈 소스 모니터링 솔루션에는 Metric Server, Prometheus, Elastic Stack, DataDog 등이 있지만 이번 시간에는 가장 기본적인 Metrics Server를 클러스터에 설치해보도록 하겠습니다.  
 {: .prompt-info}
 
-## 1. Metric Server란?
+## 1. Metrics Server란?
 
 > 클러스터 내의 모든 Node와 Pod에서 리소스 사용 데이터를 수집 후 kube-apiserver에 전달하는 역할을 합니다. 인메모리 솔루션(디스크에 Metric을 저장하지 않음)이며, Metric Data는 Horizontal Pod Autoscaler (HPA) 및 Vertical Pod Autoscaler (VPA)와 같은 기능을 사용할 때 필수적입니다.  
 {: .prompt-info}
@@ -21,15 +21,15 @@ comments: true
 
 1. kubelet이 자체 내장된 cAdvisor를 사용해 Node와 Pod의 리소스 데이터를 수집
 2. kubelet이 /metrics/resource API 엔드포인트를 통해 리소스 데이터를 제공
-3. Metric Server가 API를 통해 정기적으로 각 노드의 kubelet으로부터 Metric 데이터를 가져옴(Pull)
+3. Metrics Server가 API를 통해 정기적으로 각 노드의 kubelet으로부터 Metric 데이터를 가져옴(Pull)
 
-## 2. Metric Server의 주요 기능
+## 2. Metrics Server의 주요 기능
 
 1. 리소스 모니터링: 클러스터의 Node와 Pod에서 CPU와 메모리 사용량과 같은 Metric을 주기적으로 수집합니다.
 2. 성능 및 확장성: 경량화된 메모리 사용량으로 설계되어 대규모 클러스터에서도 효과적으로 작동할 수 있도록 최적화되어 있습니다.
 3. API 제공: 수집된 메트릭은 Kubernetes API를 통해 다양한 클라이언트와 서비스에서 사용할 수 있습니다.
 
-## 3. Metric Server 설치
+## 3. Metrics Server 설치
 
 ```bash
 root@ip-10-0-0-241:~# kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
@@ -44,7 +44,7 @@ deployment.apps/metrics-server created
 apiservice.apiregistration.k8s.io/v1beta1.metrics.k8s.io created
 ```
 
-## 4. Metric Server 확인
+## 4. Metrics Server 확인
 
 ```bash
 root@ip-10-0-0-241:~# kubectl get all -n kube-system
@@ -137,7 +137,7 @@ kube-system    metrics-server-6d94bc8694-n5k29           3m           28Mi
 
 ### 마무리
 
-> Metric-Server는 데이터를 송수신할 때 10250 포트를 사용합니다. 인바운드 포트에 10250 포트를 열어주어야 합니다.
+> Metrics-Server는 데이터를 송수신할 때 10250 포트를 사용합니다. 인바운드 포트에 10250 포트를 열어주어야 합니다.
 > **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
 > **Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)**
 {: .prompt-tip}
