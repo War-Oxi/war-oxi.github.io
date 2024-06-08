@@ -23,7 +23,7 @@ metrics.k8s.io 또는 custom.metrics.k8s.io 또는 external.metrics.k8s.io
 
 ## 시나리오
 
-> k8s.ger.io/hpa-example 이미지를 사용해 평균 3개의 Pods를 동작시키는 Deployment를 생성한다.  
+> nginx 이미지를 사용해 1개의 Pods를 동작시키는 Deployment를 생성한다.  
 > 해당 Deployment의 Pods의 개수를 리소스 사용량에 따라 최소 1개, 최대 5개로 Auto Scaling 되도록 설정 후 테스트
 {. :prompt-info}
 
@@ -39,43 +39,162 @@ metrics-server-7c5c4b56bd-pb6t9           1/1     Running   0            12m
 ```
 ## 2. 테스트용 어플리케이션 배포
 
-```yaml #pod-definition.yaml
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: php-apache
+  name: nginx-hpa-deployment
 spec:
+  replicas: 1
   selector:
     matchLabels:
-      run: php-apache
-  replicas: 1
+      run: nginx-hpa-deployment
   template:
     metadata:
       labels:
-        run: php-apache
+        run: nginx-hpa-deployment
     spec:
       containers:
-      - name: php-apache
-        image: registry.k8s.io/hpa-example
+      - name: nginx-hpa
+        image: nginx
         ports:
         - containerPort: 80
         resources:
-          limits:
-            cpu: 500m
           requests:
-            cpu: 200m
+            cpu: "100m"
+          limits:
+            cpu: "200m"
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: php-apache
+  name: nginx-hpa-service
   labels:
-    run: php-apache
+    run: nginx-hpa-deployment
 spec:
   ports:
   - port: 80
   selector:
-    run: php-apache
+    run: nginx-hpa-deployment
+```
+
+> 배포 확인
+{: .prompt-info}
+
+```bash
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl apply -f pod-definition.yaml 
+deployment.apps/nginx-hpa-deployment created
+service/nginx-hpa-service created
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl get pods
+NAME                                    READY   STATUS    RESTARTS   AGE
+nginx-hpa-deployment-5754bc4859-9bc2v   1/1     Running   0          5s
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl get svc
+NAME                TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+kubernetes          ClusterIP   10.152.183.1     <none>        443/TCP   9d
+nginx-hpa-service   ClusterIP   10.152.183.214   <none>        80/TCP    9s
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl get endpoints nginx-hpa-service 
+NAME                ENDPOINTS        AGE
+nginx-hpa-service   10.1.84.228:80   102s
+```
+
+## 3. HPA 생성
+
+```yaml
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: nginx-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: nginx-hpa-deployment
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 40
+```
+
+> HPA 확인
+{: .prompt-info}
+
+```bash
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl apply -f hpa-definition.yaml 
+horizontalpodautoscaler.autoscaling/nginx-hpa created
+
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl kubectl get hpa
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl get hpa
+NAME        REFERENCE                         TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+nginx-hpa   Deployment/nginx-hpa-deployment   cpu: 0%/40%   1         5         1          32s
+```
+
+## 4. 부하 발생
+
+```bash
+root@Zest ~# kubectl kubectl run -i --tty load-generator --rm --image=busybox:1.28 --restart=Never -- /bin/sh
+If you don't see a command prompt, try pressing enter.
+/ # while true; do wget -q -O- http://nginx-hpa-service; done
+```
+
+> Auto Scaling 확인 (Scale-up)
+{: .prompt-info}
+
+```bash
+root@ip-10-0-0-241:~# kubectl get hpa
+kNAME        REFERENCE                         TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+nginx-hpa   Deployment/nginx-hpa-deployment   cpu: 42%/40%   1         5         3          10m
+root@ip-10-0-0-241:~# kubectl get pods
+NAME                                    READY   STATUS    RESTARTS   AGE
+load-generator                          1/1     Running   0          5m11s
+nginx-hpa-deployment-5754bc4859-56jcj   1/1     Running   0          2m40s
+nginx-hpa-deployment-5754bc4859-9bc2v   1/1     Running   0          15m
+nginx-hpa-deployment-5754bc4859-q2b9d   1/1     Running   0          2m25s
+```
+
+> Auto Scaling 확인 (Scale-down)  
+{: .prompt-info}
+
+```bash
+root@ip-10-0-0-241:~# kubectl delete pod load-generator
+pod "load-generator" deleted
+
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl get hpa
+NAME        REFERENCE                         TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+nginx-hpa   Deployment/nginx-hpa-deployment   cpu: 0%/40%   1         5         3          17m
+
+root@Zest ~/Code/k8s-study/HPA(main)# kubectl get pods
+NAME                                    READY   STATUS        RESTARTS   AGE
+nginx-hpa-deployment-5754bc4859-9bc2v   1/1     Running       0          21m
+nginx-hpa-deployment-5754bc4859-j8vsl   0/1     Terminating   0          5m31s
+nginx-hpa-deployment-5754bc4859-q2b9d   0/1     Terminating   0          8m47s
+```
+
+> 부하가 적어지자 pod가 종료되는 것을 확인할 수 있습니다.
+{: .prompt-info}
+
+## 5. 추가내용
+
+load-generator를 종료해도 pod의 개수가 바로 줄어들진 않습니다. 이유는 **안정화 기간** 때문입니다. 기본 안정화 기간은 5분입니다. 안정화 기간이 설정되어 HPA는 Pod의 수를 급격히 줄이는 것을 방지합니다. HPA는 기본적으로 스케일 다운을 안정화하기 위해 일정 기간 동안 최소한의 변경만 허용합니다. 안정화 기간을 변경하기 위해서는 HPA를 생성할 때 다음과 같이 설정할 수 있습니다.
+
+```yaml
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: nginx-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: nginx-hpa-deployment
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 40
+  behavior:
+    scaleDown:
+      stabilizationWindowSeconds: 60  # 안정화 기간을 60초로 설정
+      policies:
+      - type: Percent
+        value: 10
+        periodSeconds: 60
 ```
 
 > **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
