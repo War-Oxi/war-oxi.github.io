@@ -19,13 +19,13 @@ Kubernetes에서 HPA는 특정 시간마다 Metrics Server를 통해 매트릭�
 metrics.k8s.io 또는 custom.metrics.k8s.io 또는 external.metrics.k8s.io
 
 > 실행 주기는 kube-controller-manager의 **--horizontal-pod-autoscaler-sync-period** 파라미터에 의해 설정됩니다. (기본 주기 = 15초)  
-{. :prompt-info}
+{: .prompt-info}
 
 ## 시나리오
 
 > nginx 이미지를 사용해 1개의 Pods를 동작시키는 Deployment를 생성한다.  
 > 해당 Deployment의 Pods의 개수를 리소스 사용량에 따라 최소 1개, 최대 5개로 Auto Scaling 되도록 설정 후 테스트  
-{. :prompt-info}
+{: .prompt-info}
 
 ## 1. Metrics Server 동작 확인
 
