@@ -15,16 +15,16 @@ comments: true
 
 ## 주요 DNS Record 유형
 
-A 레코드 (Address Record): 도메인 이름을 IPv4 주소로 매핑
-AAAA 레코드: 도메인 이름을 IPv6 주소로 매핑
-CNAME 레코드 (Canonical Name Record): 도메인 이름을 다른 도메인 이름으로 매핑
-MX 레코드 (Mail Exchange Record): 도메인 이름을 이메일 서버로 매핑
-TXT 레코드 (Text Record): 도메인에 대한 텍스트 정보를 저장
-NS 레코드 (Name Server Record): 도메인의 네임 서버를 지정
-PTR 레코드 (Pointer Record): IP 주소를 도메인 이름으로 매핑
-SRV 레코드 (Service Record): 특정 서비스에 대한 서버의 위치를 지정
-SOA 레코드 (Start of Authority Record): DNS 영역에 대한 권한 있는 정보와 기본 설정을 제공
-ALIAS 레코드: 루트 도메인(@)을 다른 도메인으로 매핑
+A 레코드 (Address Record): 도메인 이름을 IPv4 주소로 매핑  
+AAAA 레코드: 도메인 이름을 IPv6 주소로 매핑  
+CNAME 레코드 (Canonical Name Record): 도메인 이름을 다른 도메인 이름으로 매핑  
+MX 레코드 (Mail Exchange Record): 도메인 이름을 이메일 서버로 매핑  
+TXT 레코드 (Text Record): 도메인에 대한 텍스트 정보를 저장  
+NS 레코드 (Name Server Record): 도메인의 네임 서버를 지정  
+PTR 레코드 (Pointer Record): IP 주소를 도메인 이름으로 매핑  
+SRV 레코드 (Service Record): 특정 서비스에 대한 서버의 위치를 지정  
+SOA 레코드 (Start of Authority Record): DNS 영역에 대한 권한 있는 정보와 기본 설정을 제공  
+ALIAS 레코드: 루트 도메인(@)을 다른 도메인으로 매핑  
 
 ## A 레코드 설정
 
