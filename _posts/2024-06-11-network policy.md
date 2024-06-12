@@ -435,7 +435,6 @@ db → was ( O )
           port: 53
         - protocol: TCP
           port: 53
-
     ```
 
 ## 결론
