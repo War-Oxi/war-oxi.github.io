@@ -427,15 +427,14 @@ db → was ( O )
     ```yaml
     egress:
     - to:
-      - namespaceSelector:
-          matchLabels: {}
-      ports:
-      - protocol: UDP
-        port: 53
-      - protocol: TCP
-        port: 53
+        - namespaceSelector:
+            matchLabels: {}
+        ports:
+        - protocol: UDP
+          port: 53
+        - protocol: TCP
+          port: 53
     ```
-
 ## 결론
 
 > 네임스페이스를 생성할 때 레이블이 자동으로 설정되지 않으므로, 네트워크 정책을 설정할 때 반드시 레이블을 수동으로 설정해야 합니다. 또한, DNS 트래픽을 명시적으로 허용하지 않으면 DNS 이름으로 접근할 수 없습니다.
