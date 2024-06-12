@@ -418,13 +418,12 @@ db → was ( O )
     ```
 6. 네임스페이스에 레이블을 설정했음에도 불구하고 문제가 해결되지 않음
 7. Pod 내부에서 `nslookup` 명령어를 사용하여 DNS 이름으로 접근을 시도 ⇒ DNS 이름으로 접근이 불가능한 것을 확인
-
-```bash
-kubectl exec -n web web-test-pod -- nslookup was-service.was.svc.cluster.local
-```
-
-1. DNS 트래픽을 명시적으로 허용하지 않으면 DNS 이름으로 접근할 수 없다는 사실 확인
-2. 네트워크 정책에 DNS에 대한 egress 규칙을 추가
+    ```bash
+    kubectl exec -n web web-test-pod -- nslookup was-service.was.svc.cluster.local
+    ```
+8. DNS 트래픽을 명시적으로 허용하지 않으면 DNS 이름으로 접근할 수 없다는 사실 확인
+  <https://www.cncf.io/blog/2020/02/10/guide-to-kubernetes-egress-network-policies/>
+9.  네트워크 정책에 DNS에 대한 egress 규칙을 추가
     ```yaml
     egress:
     - to:
