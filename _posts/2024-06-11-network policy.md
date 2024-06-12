@@ -427,13 +427,13 @@ db → was ( O )
     ```yaml
     egress:
     - to:
-        - namespaceSelector:
-            matchLabels: {}
-        ports:
-        - protocol: UDP
-          port: 53
-        - protocol: TCP
-          port: 53
+      - namespaceSelector:
+          matchLabels: {}
+      ports:
+      - protocol: UDP
+        port: 53
+      - protocol: TCP
+        port: 53
     ```
 
 ### 결론
