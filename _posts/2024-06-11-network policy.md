@@ -423,7 +423,7 @@ db → was ( O )
     ```
 8. DNS 트래픽을 명시적으로 허용하지 않으면 DNS 이름으로 접근할 수 없다는 사실 확인
   <https://www.cncf.io/blog/2020/02/10/guide-to-kubernetes-egress-network-policies/>
-9.  네트워크 정책에 DNS에 대한 egress 규칙을 추가
+9. 네트워크 정책에 DNS에 대한 egress 규칙을 추가  
     ```yaml
     egress:
     - to:
