@@ -11,7 +11,7 @@ comments: true
 
 > WEB, WAS, DB 네임스페이스 생성.  
 >
-> WEB <-> WAS <-> DB 이렇게만 통신이 가능해야함  
+> WEB <=> WAS <=> DB 이렇게만 통신이 가능해야함  
 >
 > WEB - 80 포트로만 ingress, egress  
 > WAS - 8080 포트로만 ingress, egress  
@@ -20,7 +20,11 @@ comments: true
 
 ![alt text](/assets/img/network-policy/network-policy.png)
 
-## 1. Namespace 및 label 생성
+## 1. Network Policy란?
+
+Network Policy는 쿠버네티스에서 네트워크 트래픽을 제어하기 위한 리소스입니다. 이를 통해 특정 Pod 간의 통신을 허용하거나 차단할 수 있습니다. 주로 보안 목적으로 사용되며, 클러스터 내의 트래픽을 세부적으로 관리할 수 있습니다. 예를 들어, 3계층 아키텍처에서 웹 서버, 애플리케이션 서버, 데이터베이스 서버 간의 통신 규칙을 정의하여 외부 접근을 제한할 수 있습니다.
+
+## 2. Namespace 및 label 생성
 
 ```bash
 root@Zest ~# kubectl create ns web
@@ -38,7 +42,7 @@ root@Zest ~/Code/k8s-network-policy-3-tier/test# kubectl label namespace web nam
 namespace/web labeled
 ```
 
-## 2. Pod 및 Service 생성
+## 3. Pod 및 Service 생성
 
 ### WEB manifest file
 
@@ -167,7 +171,7 @@ web            service/web-service            ClusterIP   10.152.183.96    <none
 ...
 ```
 
-## 3. Network Policy 생성
+## 4. Network Policy 생성
 
 ### WEB-Network Policy manifest file
 
@@ -322,7 +326,7 @@ was         was-policy   <none>         22s
 web         web-policy   <none>         25s
 ```
 
-## 4. Test
+## 5. Test
 
 > busybox 이미지를 사용했고, 각각의 namespace에 test pod를 생성해 테스트 했습니다.
 {: .prompt-tip}
@@ -382,7 +386,7 @@ wget: server returned error: HTTP/1.1 404
 wget: can't connect to remote host (10.152.183.144): Connection timed out
 ```
 
-## 5. 결과
+## 6. 결과
 
 web → was ( O )
 
@@ -396,7 +400,7 @@ db → web ( X )
 
 db → was ( O )
 
-## 6. Trouble Shooting
+## 7. Trouble Shooting
 
 네임스페이스를 생성할 때, 네임스페이스에 레이블이 자동으로 추가되지 않는다는 사실과 network policy를 생성 직후 pod에서 다른 pod에 DNS 이름으로 접근이 불가능 하다는 문제를 직면했습니다.
 
@@ -437,11 +441,11 @@ db → was ( O )
           port: 53
     ```
 
-## 결론
+## 8. 결론
 
 > 네임스페이스를 생성할 때 레이블이 자동으로 설정되지 않으므로, 네트워크 정책을 설정할 때 반드시 레이블을 수동으로 설정해야 합니다. 또한, DNS 트래픽을 명시적으로 허용하지 않으면 DNS 이름으로 접근할 수 없습니다.
 {: .prompt-tip}
 ---
-> **궁금하신점이나 추가해야할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
+> **궁금하신점이나 추가해야 할 부분은 댓글이나 아래의 링크를 통해 문의해주세요.**  
 > **Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)**
 {: .prompt-info}
