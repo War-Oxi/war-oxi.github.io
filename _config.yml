@@ -97,7 +97,8 @@ theme_mode: null # [light | dark]
 cdn: null
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/87055239-475b-4e8c-b3e5-c8fe594a2063
+# 사자사진 avatar: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/87055239-475b-4e8c-b3e5-c8fe594a2063
+avatar: /assets/img/favicons/test.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
