@@ -31,7 +31,7 @@ order: 4
 
 연락처 - 010-8813-5460  
 이메일 - xowl5460@naver.com  
-[Blog - https://kkamji98.github.io](https://kkamji98.github.io)  
+[Blog - https://kkamji.net](https://kkamji.net)  
 [Github - https://github.com/kkamji98](https://github.com/kkamji98)
 
 > ## <span style="color:#BF8C79">주요 프로젝트</span>
@@ -42,7 +42,7 @@ order: 4
 > AWS 클라우드 상에서 MSA, 3-Tier-Architecture로 구축 및 배포  
 {: .prompt-tip}
 
-[백엔드 개발 저장소 - https://github.com/kkamji98/Amazon-Photo-Query](https://github.com/kkamji98/Amazon-Photo-Query)  
+[백엔드 개발 저장소 - https://github.com/KKamJi98/Photo-Query](https://github.com/KKamJi98/Photo-Query)  
 [EKS 배포 저장소 - https://github.com/kkamji98/aws-app-eks-manifests](https://github.com/kkamji98/aws-app-eks-manifests)
 
 #### 데모 영상
@@ -100,6 +100,7 @@ order: 4
 - 얼굴 인식을 사용한 사진 조회
 - 태그 자동 생성
 - 사진 업로드, 삭제, 조회
+- 선정적인 사진 필터링
 
 #### 클라우드 아키텍처 구성
 
