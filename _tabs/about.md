@@ -88,7 +88,7 @@ order: 4
 | Programming | Go, Python, Node.js, Flutter                                                         |
 | CI/CD       | Jenkins, ArgoCD, CodeSeries                                                          |
 | Container   | Docker, EKS, ECR                                                                     |
-| Database    | RDS (MySQL), DynamoDB, DocumentDB                                                    |
+| Database    | RDS(MySQL), DynamoDB, DocumentDB                                                     |
 | Monitoring  | Prometheus, Grafana, Container Insight, KubeCost                                     |
 | ETC         | S3, Cognito, Rekognition, Secret Manager, Terraform, SNS, SQS, Karpenter, Fluent-bit |
 | Tools       | Notion, Slack, Postman, GitHub                                                       |
