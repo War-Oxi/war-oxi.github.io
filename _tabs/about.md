@@ -30,7 +30,7 @@ order: 4
 </div>
 
 연락처 - 010-8813-5460  
-이메일 - xowl5460@naver.com  
+이메일 - <xowl5460@naver.com>
 [Blog - https://kkamji.net](https://kkamji.net)  
 [Github - https://github.com/kkamji98](https://github.com/kkamji98)
 
@@ -38,7 +38,7 @@ order: 4
 
 ### Amazon Photo Query - [ 2024.01 ~ 2024.03 ]
 
-> 기존 앨범 서비스에 AI 모델을 도입해 이미지 분류, 이미지 검색 편의성을 제공하는 서비스  
+> 기존 앨범 서비스에 AI 모델을 도입. 이미지 분류, 이미지 검색 편의성 제공  
 > AWS 클라우드 상에서 MSA, 3-Tier-Architecture로 구축 및 배포  
 {: .prompt-tip}
 
@@ -134,11 +134,11 @@ order: 4
 
 #### 트러블 슈팅
 
-> **Public Subnet에서 Private Subnet로 서버**를 이전 후 웹어플리케이션에서 S3에 Access Deny 문제 직면  
+> **Public Subnet에서 Private Subnet로 서버**를 이전, 웹어플리케이션에서 S3에 Access Deny 문제 직면  
 > **AWS IRSA** 개념을 공식문서를 통해 습득 후, 팀원들에게 공유  
 {: .prompt-warning}
 ---
-> Go로 구축한 백엔드 서버의 성능 테스트 도중 다수(500MB 700장)의 이미지 업로드 시 **5분 이상의 시간과 상당한 리소스를 사용**한다는 문제를 발견  
+> 성능 테스트 도중 다수(500MB 700장)의 이미지 업로드 시 **5분 이상의 시간과 상당한 리소스를 사용**한다는 문제를 발견  
 {: .prompt-warning}
 
 1. 기존 로직에서 이미지 리사이징 기능을 Lambda함수로 분리  
@@ -150,7 +150,7 @@ order: 4
 
 ### ACS-Notice Board - [ 2023.11 ~ 2023.11 ]
 
-> 기존 AWS Cloud School 공지 시스템의 문제를 개선하기 위해 제작한 공지 서비스  
+> 기존 AWS Cloud School 공지 시스템의 문제를 개선하기 위해 제작  
 > Docker Swarm을 사용해 3-Tier-Architecture를 구현  
 {: .prompt-tip}
 
