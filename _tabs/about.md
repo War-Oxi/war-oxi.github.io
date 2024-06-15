@@ -134,7 +134,7 @@ order: 4
 
 #### 트러블 슈팅
 
-> **Public Subnet에서 Private Subnet로 서버**를 이전, 웹어플리케이션에서 S3에 Access Deny 문제 직면  
+> **Public Subnet에서 Private Subnet로 서버**를 이전하며 S3, DynamoDB에서 Access Deny 문제 직면
 > **AWS IRSA** 개념을 공식문서를 통해 습득 후, 팀원들에게 공유  
 {: .prompt-warning}
 ---
