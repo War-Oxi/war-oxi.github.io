@@ -47,7 +47,7 @@ ALIAS 레코드: 루트 도메인(@)을 다른 도메인으로 매핑
 
 ## Github Pages 설정
 
-1. Repository 최상위 디렉토리에 CNAME 파일을 생성한뒤 파일의 내용에 **kkamji.net**을 추가해줍니다.
+1. Repository 최상위 디렉토리에 CNAME 파일을 생성한 뒤 파일의 내용에 **kkamji.net**을 추가해줍니다.
 2. 이후 Repository > Settings > Pages에 들어간 뒤, Custom Domain에 **kkamji.net**을 추가해준 뒤, Save를 눌러줍니다.
    > 클릭을 하면 DNS Check 이후 이제 홈페이지가 kkamji.net으로 호스팅되게 됩니다.
    {: .prompt-info}
