@@ -5,8 +5,8 @@ author: kkamji
 categories: [Kubernetes]
 tags: [microk8s, aws, seminar, presentation, kubernetes, ec2]     # TAG names should always be lowercase
 comments: true
-# image:
-#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+image:
+    path: /assets/img/aws/aws.png
 ---
 
 AWS 강의실 온라인 세미나에 참석하여 MicroK8s로 쿠버네티스 클러스터 구축하기 세션을 주제로 발표를 진행했습니다.

@@ -6,7 +6,7 @@ categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, api-server, etcd, controller-management, scheduler, kubelet, kube-proxy, containerd, container]     # TAG names should always be lowercase
 comments: true
 image:
-  path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+  path: /assets/img/kubernetes/kubernetes.png
 ---
 ## Concept
 

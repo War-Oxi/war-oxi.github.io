@@ -5,8 +5,8 @@ author: kkamji
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2]     # TAG names should always be lowercase
 comments: true
-# image:
-#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+image:
+  path: /assets/img/kubernetes/kubernetes.png
 ---
 
 > 필자는 맥북과 윈도우 데스크탑 환경을 사용하고 있습니다. EKS Cluster의 context를 가져와 하나의 Kubernetes 클러스터를 두 환경에서 공유해서 사용하고 있었으나….  

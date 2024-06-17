@@ -5,8 +5,8 @@ author: kkamji
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, tls, ssl, kubeconfig]     # TAG names should always be lowercase
 comments: true
-# image:
-#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+image:
+  path: /assets/img/kubernetes/kubernetes.png
 ---
 
 > 저번 시간에 EC2위에 MicroK8s Cluster를 구축후 web server를 배포하는 것까지 다뤘습니다..  

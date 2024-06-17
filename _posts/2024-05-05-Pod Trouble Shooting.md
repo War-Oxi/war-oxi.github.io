@@ -5,8 +5,8 @@ author: kkamji
 categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, api-server, terminating, ebs, volume,  kubelet, aws, ec2, ubuntu]     # TAG names should always be lowercase
 comments: true
-# image:
-#   path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/c39504c6-3de4-4b41-919b-5ef1b132106c
+image:
+  path: /assets/img/kubernetes/kubernetes.png
 ---
 > `kubectl delete pod simple-webapp-color`로 pod를 삭제하려 했는데 바로 삭제가 안되서 기다리면 삭제되겠지.. 하면서 다른 일을 하다가 다음날 확인을 해봤는데 아직도 `Terminating` 상태였다.. 그래서 이번에는 Pod가 Terminating 상태에 계속 머물러 있는 원인에 대해 다뤄보겠습니다.
 {: .prompt-info}
