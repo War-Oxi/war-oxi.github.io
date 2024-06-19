@@ -6,7 +6,7 @@ categories: [AWS]
 tags: [route53, domain, aws, github pages, jekyll, blog, kkamji, cname, a record]     # TAG names should always be lowercase
 comments: true
 image:
-    path: /assets/img/aws/aws.png
+    path: /assets/img/aws/aws.webp
 ---
 
 
