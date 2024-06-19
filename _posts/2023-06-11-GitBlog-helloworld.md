@@ -7,14 +7,14 @@ tags: [kkamji]     # TAG names should always be lowercase
 comments: true
 pin: true
 image: 
-    path: https://github.com/kkamji98/kkamji98.github.io/assets/72260110/87055239-475b-4e8c-b3e5-c8fe594a2063
+    path: /assets/img/kkam-img/kkam.png
 ---
 
 ## Github Blog
 
-- 공부 기록 후 복습  
-- 나와 같은 문제를 겪는 사람들이 이 블로그를 통해 문제를 해결 할 수 있길바라며.. ~~(삽질 그만)~~  
-- git + markdown 공부가 자연스레..?? (1석 2조) [ 돌 하나에 2조?? ㄷㄷㄷ ]  
+- 중요 내용 학습 후 머릿속에 있는 지식을 글로 표현하는 단계를 거침으로 더 완벽하게 이해  
+- 같은 문제를 겪는 사람들에게.. 문제 해결에 도움이 되길 바라며.. ~~(삽질 그만)~~  
+- markdown, git, jekyll 공부가 자연스레..?? (1석 3조) [ 돌 하나 == 가치 3조.. ㄷㄷㄷ ]  
 
 > Written with [KKam.\_\.Ji](https://www.instagram.com/kkam._.ji/)
 {: .prompt-info}
