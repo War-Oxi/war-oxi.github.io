@@ -7,7 +7,7 @@ tags: [kkamji]     # TAG names should always be lowercase
 comments: true
 pin: true
 image: 
-    path: /assets/img/kkam-img/kkam.png
+    path: /assets/img/kkam-img/kkam.webp
 ---
 
 ## Github Blog

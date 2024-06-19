@@ -6,7 +6,7 @@ categories: [Kubernetes]
 tags: [kubernetes, network policy, 3-tier-architecture, web, was, db]     # TAG names should always be lowercase
 comments: true
 image:
-  path: /assets/img/kubernetes/kubernetes.png
+  path: /assets/img/kubernetes/kubernetes.webp
 ---
 
 > WEB, WAS, DB 네임스페이스 생성.  
@@ -18,7 +18,7 @@ image:
 > DB - 3306 포트로만 ingress, egress  
 {: .prompt-tip}
 
-![alt text](/assets/img/network-policy/network-policy.png)
+![alt text](/assets/img/network-policy/network-policy.webp)
 
 ## 1. Network Policy란?
 

@@ -6,7 +6,7 @@ categories: [Kubernetes]
 tags: [microk8s, aws, seminar, presentation, kubernetes, ec2]     # TAG names should always be lowercase
 comments: true
 image:
-    path: /assets/img/kubernetes/kubernetes.png
+    path: /assets/img/kubernetes/kubernetes.webp
 ---
 
 AWS 강의실 온라인 세미나에 참석하여 MicroK8s로 쿠버네티스 클러스터 구축하기 세션을 주제로 발표를 진행했습니다.

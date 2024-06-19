@@ -6,7 +6,7 @@ categories: [AWS]
 tags: [route53, domain, aws]     # TAG names should always be lowercase
 comments: true
 image:
-    path: /assets/img/aws/aws.png
+    path: /assets/img/aws/aws.webp
 ---
 
 이번 시간에는 예전 부터 미뤄왔던 깃허브 아이디를 변경하였고, 해당 이유 때문에 블로그 도메인 주소가 바뀌게 되었습니다.  

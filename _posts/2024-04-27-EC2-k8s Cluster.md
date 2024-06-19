@@ -6,7 +6,7 @@ categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2]     # TAG names should always be lowercase
 comments: true
 image:
-  path: /assets/img/kubernetes/kubernetes.png
+  path: /assets/img/kubernetes/kubernetes.webp
 ---
 
 > 필자는 맥북과 윈도우 데스크탑 환경을 사용하고 있습니다. EKS Cluster의 context를 가져와 하나의 Kubernetes 클러스터를 두 환경에서 공유해서 사용하고 있었으나….  

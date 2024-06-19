@@ -6,7 +6,7 @@ categories: [AWS]
 tags: [aws summit seoul, aws, summit, karpenter, region, ha, ft, monitoring, vectordb, opensearch, llm, rag]     # TAG names should always be lowercase
 comments: true
 image:
-    path: /assets/img/aws/aws.png
+    path: /assets/img/aws/aws.webp
 ---
 
 AWS Summit은 AWS에서 주최하는 국내 최대의 IT 클라우드 행사입니다. 클라우드 기술을 선도하는 다양한 회사들이 참여하며, 다양한 성공 사례와 최신 기술 트렌드를 접할 수 있습니다.

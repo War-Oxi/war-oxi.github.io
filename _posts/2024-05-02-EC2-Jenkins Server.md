@@ -6,7 +6,7 @@ categories: [Jenkins]
 tags: [jenkins, agent, ec2, aws, microk8s]     # TAG names should always be lowercase
 comments: true
 image:
-  path: /assets/img/jenkins/jenkins.png
+  path: /assets/img/jenkins/jenkins.webp
 ---
 
 > <https://www.whatap.io/ko/blog/77/> 와탭랩스에서 이런 글을 올린 것을 확인했고,, 한번 적용해볼까?? 라는 생각을 하게되었습니다. 기존의 계획은 Jenkins Server를 하나 만들고 사용할 예정이었지만 우리는 저번에 MicroK8s Server를 만들었고.. 해당 클러스터를 이용해 Jenkins Agent를 Pod로 동적으로 생성하는 것은 어떨까요?? 아무래도.. 해보고 싶은건 해봐야겠죠??  

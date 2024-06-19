@@ -6,7 +6,7 @@ categories: [Kubernetes]
 tags: [kubernetes, k8s, k8s-cluster, cluster, microk8s, aws, ec2, metric, metrics server, worker node, monitoring]     # TAG names should always be lowercase
 comments: true
 image:
-  path: /assets/img/kubernetes/kubernetes.png
+  path: /assets/img/kubernetes/kubernetes.webp
 ---
 
 > Kubernetes Cluster를 관리하기 위해서는 성능 metrics을 모니터링하고 지표를 저장한 뒤 지표 데이터에 대한 분석을 제공할 수 있는 솔루션이 필요합니다. 오픈 소스 모니터링 솔루션에는 Metric Server, Prometheus, Elastic Stack, DataDog 등이 있지만 이번 시간에는 가장 기본적인 Metrics Server를 클러스터에 설치해보도록 하겠습니다.  
