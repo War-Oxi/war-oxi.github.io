@@ -72,7 +72,7 @@ order: 4
 
 <!-- [![유사한 사진 검색](https://github.com/kkamji98/kkamji98.github.io/assets/72260110/31dc7819-2d79-481d-8b50-0d1acd783788)](https://www.youtube.com/watch?v=373Xvy3tddM) -->
 
-#### 주요역할 및 담당 ( 기여도 )
+#### 주요역할 및 담당
 
 - Cloud Architecture 설계  
 - AWS 인프라 구축 & 운영  
@@ -160,15 +160,13 @@ order: 4
 
 ![image](https://github.com/kkamji98/ACS-1st-Notice-Board/assets/72260110/17ca9374-7930-45fb-bff8-350f05598bef)
 
-#### 주요 역할 및 담당 (기여도 100% - 개인 프로젝트)
+#### 주요 역할 및 담당
 
-- 아키텍처 설계
-- 웹어플리케이션 개발 및 배포
-- 인프라 구축
+- 3-Tier-Architecture 설계 및 구축
 - Docker Swarm 세팅
 - Docker Private Repository 구축
-- Reverse Proxy 구현
-- ERD 설계
+- 웹어플리케이션 개발 및 배포
+- DB 구축
 
 #### 프로젝트 기술 스택
 
@@ -208,6 +206,7 @@ order: 4
 > ## <span style="color:#BF8C79">교육</span>
 
 > **AWS Cloud School 1기 [2023.08 - 2024.03]**
+>
 > - Cloud(AWS) & DevOps 교육
 > - Network, Linux, Docker, Kubernetes, Jenkins, ArgoCD, AWS 학습
 > - 교육과정 내 공지 게시판 개발
