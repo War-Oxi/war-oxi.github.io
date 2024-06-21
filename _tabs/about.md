@@ -31,8 +31,8 @@ order: 4
 
 연락처 - 010-8813-5460  
 이메일 - <xowl5460@naver.com>  
-[Blog - https://kkamji.net](https://kkamji.net)  
-[Github - https://github.com/kkamji98](https://github.com/kkamji98)
+Blog - [https://kkamji.net](https://kkamji.net)  
+Github - [https://github.com/kkamji98](https://github.com/kkamji98)
 
 > ## <span style="color:#BF8C79">주요 프로젝트</span>
 
